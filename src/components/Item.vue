@@ -32,9 +32,11 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
 import { Rarity } from '../definition';
 
-export default {
+export default defineComponent({
 	props: {
 		item: { type: Object, required: true },
 	},
@@ -94,7 +96,7 @@ export default {
 				.replaceAll(/{(.+?)}/g, `<span class="is-stackable">($1 per stack)</span>`);
 		},
 	},
-};
+});
 </script>
 
 <style scoped>

@@ -5,7 +5,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
 	props: {
 		selected: { type: [String, Number], required: true },
 		rarity: { type: [String, Number], required: true },
@@ -23,7 +25,7 @@ export default {
 			return classes;
 		},
 	},
-};
+});
 </script>
 
 <style scoped>

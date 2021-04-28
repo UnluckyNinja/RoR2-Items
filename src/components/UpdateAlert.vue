@@ -61,7 +61,9 @@
 </template>
 
 <script lang="ts">
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
 	data() {
 		return {
 			version: '1.1.1.2',
@@ -82,7 +84,7 @@ export default {
 			return this.version == this.newVersion;
 		},
 	},
-};
+});
 </script>
 
 <style scoped></style>

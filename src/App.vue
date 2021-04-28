@@ -79,6 +79,8 @@
 </template>
 
 <script lang="ts">
+import { defineComponent } from 'vue';
+
 import Item from './components/Item.vue';
 import Modal from './components/Modal.vue';
 import list from './assets/list.json';
@@ -96,7 +98,7 @@ import UpdateAlert from './components/UpdateAlert.vue';
  *	[29, 5, 'QuestVolatileBattery', 'Fuel Array', 'quest', 'fuelArray', 'Looks like it could power something.\n{offense:EXTREMELY unstable...}.\n{misc:(Not obtainable in-game, used for quest)}'],
  */
 
-export default {
+export default defineComponent({
 	components: { FilterButton, Item, Modal, UpdateAlert },
 	data() {
 		return {
@@ -178,5 +180,5 @@ export default {
 			return this.rarityFilter;
 		},
 	},
-};
+});
 </script>

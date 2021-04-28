@@ -1,0 +1,42 @@
+name: Github Page
+
+on: 
+  push:
+    branches:
+    - main
+    - build-pages
+  pull_request:
+    branches:
+    - main
+    - build-pages
+
+jobs:
+  build:
+    name: Build on node ${{ matrix.node-version }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        node-version: ['14']
+        os: [ubuntu-latest]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: "Repository Meta"
+      uses: varunsridharan/action-repository-meta@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: yarn task
+      run: |
+        yarn
+        yarn build --if-present --base=/$env:REPOSITORY_SLUG/
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        publish_branch: gh-pages

@@ -11,18 +11,19 @@ import {
 	uniExternalLinkAlt,
 	uniInfoCircle,
 	uniTimesCircle,
-} from 'vue-unicons/icons';
+	uniEnglishToChinese,
+} from 'vue-unicons/dist/icons';
 import { steam } from './icons/steam';
 import './index.css';
 
-import en from './locales/en.json';
+import messages from '@intlify/vite-plugin-vue-i18n/messages';
 
-Unicon.add([uniGithub, uniCheckCircle, uniTimes, uniUnlock, uniExternalLinkAlt, uniInfoCircle, uniTimesCircle, steam]);
+Unicon.add([uniGithub, uniCheckCircle, uniTimes, uniUnlock, uniExternalLinkAlt, uniInfoCircle, uniTimesCircle, steam, uniEnglishToChinese]);
 
 const i18n = createI18n({
 	locale: 'en', // set locale
 	fallbackLocale: 'en', // set fallback locale
-	messages: { en }, // set locale messages
+	messages // set locale messages
 });
 
 createApp(App)

@@ -45,6 +45,7 @@
 					:selected="selectedRarity"
 					v-on:selectRarity="selectRarity"
 				/>
+				<LanguageButton />
 			</div>
 			<div class="flex flew-row flex-nowrap">
 				<button
@@ -80,6 +81,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 import Item from './components/Item.vue';
 import Modal from './components/Modal.vue';
@@ -87,6 +89,7 @@ import list from './assets/list.json';
 import { Rarity } from './definition';
 import FilterButton from './components/FilterButton.vue';
 import UpdateAlert from './components/UpdateAlert.vue';
+import LanguageButton from './components/LanguageButton.vue';
 
 /**
  * Additional hidden equipments:
@@ -99,7 +102,7 @@ import UpdateAlert from './components/UpdateAlert.vue';
  */
 
 export default defineComponent({
-	components: { FilterButton, Item, Modal, UpdateAlert },
+	components: { FilterButton, Item, Modal, UpdateAlert, LanguageButton },
 	data() {
 		return {
 			list: [],
@@ -114,6 +117,13 @@ export default defineComponent({
 			rarityFilter: 'all' | Rarity;
 			rarities: string[];
 		};
+	},
+  setup() {
+		// $t etc functions are injected in mounted(),
+		// to use them in created() we need to import them in setup()
+		const { t, te, locale } = useI18n({ useScope: 'global' })
+		
+		return { t, te, locale }
 	},
 	created() {
 		this.load();
@@ -144,11 +154,11 @@ export default defineComponent({
 					rarity: item[1],
 					stringRarity: this.rarityToString(item[1]),
 					uid: item[2],
-					name: item[3],
+					name: this.te(`items.${item[2]}.name`) ? this.t(`items.${item[2]}.name`) : item[3],
 					tags: item[4],
 					image: item[5],
-					description: item[6],
-					unlock: item[7],
+					description: this.te(`items.${item[2]}.description`) ? this.t(`items.${item[2]}.description`) : item[6],
+					unlock: this.te(`items.${item[2]}.unlock`) ? this.t(`items.${item[2]}.unlock`) : item[7],
 				});
 			}
 		},
@@ -161,6 +171,11 @@ export default defineComponent({
 		showModal(item: ItemDescription) {
 			(this.$refs.modal as typeof Modal).show(item);
 		},
+	},
+	watch: { 
+		locale(){
+			this.load()
+		}
 	},
 	computed: {
 		items(): ItemDescription[] {

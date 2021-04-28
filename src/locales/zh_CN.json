@@ -1,9 +1,9 @@
 {
-  "locale": "English",
+  "locale": "中文",
   "items": {
     "missinguid_repulsionArmorPlate": {
       "name": "Repulsion Armor Plate",
-      "description": "Reduce all {'{'}offense:incoming damage{'}'} by {'{'}offense:5{'}'} {'{'}+5{'}'}. Cannot be reduced below {'{'}offense:1{'}'}."
+      "description": "降低所有{'{'}offense:承受伤害{'}'} by {'{'}offense:5{'}'} {'{'}+5{'}'}. Cannot be reduced below {'{'}offense:1{'}'}."
     },
     "BarrierOnKill": {
       "name": "Topaz Brooch",

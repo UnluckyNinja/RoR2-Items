@@ -136,6 +136,7 @@ export default defineComponent({
 			return 'equipment';
 		},
 		load() {
+			this.list = []
 			for (const i of list) {
 				const item = i as RawItemDescription;
 				this.list.push({

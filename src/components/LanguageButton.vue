@@ -38,6 +38,7 @@ export default defineComponent({
     const selectLang = (locale: Locale) => {
       toggleDropdown()
       i18n.locale.value = locale
+      window.localStorage.setItem('locale', `${locale}`)
     }
 
     return {

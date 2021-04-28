@@ -122,6 +122,10 @@ export default defineComponent({
 		// $t etc functions are injected in mounted(),
 		// to use them in created() we need to import them in setup()
 		const { t, te, locale } = useI18n({ useScope: 'global' })
+		let lastSessionLocale = window.localStorage.getItem('locale')
+		if (lastSessionLocale){
+			locale.value = lastSessionLocale
+		}
 		
 		return { t, te, locale }
 	},

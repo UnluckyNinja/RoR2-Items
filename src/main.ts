@@ -14,6 +14,7 @@ import {
 	uniEnglishToChinese,
 } from 'vue-unicons/dist/icons';
 import { steam } from './icons/steam';
+import 'virtual:windi.css'
 import './index.css';
 
 import messages from '@intlify/vite-plugin-vue-i18n/messages';

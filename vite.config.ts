@@ -2,6 +2,7 @@ import path from 'path';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
+import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,6 +11,7 @@ export default defineConfig({
 		vueI18n({
 			include: path.resolve(__dirname, './src/locales/**'),
 			compositionOnly: false
-		})
+		}),
+    WindiCSS(),
 	],
 });

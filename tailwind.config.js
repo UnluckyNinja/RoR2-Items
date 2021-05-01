@@ -1,5 +1,5 @@
 module.exports = {
-	purge: ['index.html', 'src/**/*.vue'],
+	transformCSS: 'pre',
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
@@ -22,9 +22,6 @@ module.exports = {
 				'48p': '48%',
 			},
 		},
-	},
-	variants: {
-		extend: {},
 	},
 	plugins: [],
 };

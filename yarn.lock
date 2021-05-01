@@ -2022,20 +2022,14 @@ vue-i18n@^9.1.6:
     "@intlify/vue-devtools" "9.1.6"
     "@vue/devtools-api" "^6.0.0-beta.7"
 
-vue-unicons@^3.0.0-beta.4:
-  version "3.2.1"
-  resolved "https://registry.nlark.com/vue-unicons/download/vue-unicons-3.2.1.tgz#77c469154660f8f4ae4668b33482aa79dbd70a8e"
-  integrity sha1-d8RpFUZg+PSuRmizNIKqedvXCo4=
+vue-unicons@^3.2.2-alpha.1:
+  version "3.2.2-alpha.1"
+  resolved "https://registry.npm.taobao.org/vue-unicons/download/vue-unicons-3.2.2-alpha.1.tgz#0ef50d536a6882938fee9e96fe542e822c9c9e82"
+  integrity sha1-DvUNU2pogpOP7p6W/lQugiycnoI=
   dependencies:
     "@iconscout/unicons" "^3.0.6"
     prismjs "^1.15.0"
-    vue "^2.5.22"
     vue-analytics "^5.16.2"
-
-vue@^2.5.22:
-  version "2.6.12"
-  resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz?cache=0&sync_timestamp=1617321643721&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue%2Fdownload%2Fvue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
-  integrity sha1-9evU+mvShpQD4pqJau1JBEVskSM=
 
 vue@^3.0.5:
   version "3.0.11"

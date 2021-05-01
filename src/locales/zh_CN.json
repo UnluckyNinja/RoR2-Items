@@ -1,556 +1,579 @@
 {
   "locale": "中文",
+  "ui": {
+    "title": "雨中冒险2 物品和装备",
+    "donate": "在 ko-fi.com 上送我一杯咖啡",
+    "search-placeholder": "搜索名称、标签、稀有度和描述",
+    "noitemfound": "未找到符合条件的物品。",
+    "button":{
+      "language": "语言",
+      "all": "所有",
+      "common": "常见",
+      "uncommon": "少见",
+      "rare": "稀有",
+      "unique": "独特",
+      "lunar": "月球",
+      "equipment": "装备",
+      "clear": "清空",
+      "unlock": "解锁"
+    },
+    "modal": {
+      "title": "如何解锁",
+      "close": "关闭"
+    }
+  },
+  "perstack": "每堆叠",
   "items": {
     "missinguid_repulsionArmorPlate": {
-      "name": "Repulsion Armor Plate",
-      "description": "降低所有{'{'}offense:承受伤害{'}'} by {'{'}offense:5{'}'} {'{'}+5{'}'}. Cannot be reduced below {'{'}offense:1{'}'}."
+      "name": "推斥护甲板",
+      "description": "降低所有 #[offense:承受伤害] #[offense:5] #[+5] 点。最低减小至 #[offense:1] 点."
     },
     "BarrierOnKill": {
-      "name": "Topaz Brooch",
-      "description": "Gain a {'{'}defense:temporary barrier{'}'} on kill for {'{'}defense:15 health{'}'} {'{'}+15{'}'}."
+      "name": "黄晶胸针",
+      "description": "击杀时获得等同于 #[defense:15生命值] #[+15] 的 #[defense:临时屏障]。"
     },
     "Bear": {
-      "name": "Tougher Times",
-      "description": "{'{'}defense:15%{'}'} {'{'}+15%{'}'} chance to {'{'}defense:block{'}'} incoming damage.\n{'{'}misc:Unaffected by the luck{'}'}.",
-      "unlock": "Die 5 times."
+      "name": "更艰难的时光",
+      "description": "#[defense:15%] #[+15%] 的几率 #[defense:格挡] 所受伤害。\n#[misc:不受幸运机制影响]。",
+      "unlock": "死亡 5 次。"
     },
     "BleedOnHit": {
-      "name": "Trip-Tip Dagger",
-      "description": "{'{'}offense:10%{'}'} {'{'}+10%{'}'} chance to {'{'}offense:bleed{'}'} an enemy for {'{'}offense:240%{'}'} base damage."
+      "name": "三尖匕首",
+      "description": "#[offense:10%] #[+10%] 的几率使一位敌人 #[offense:流血]，造成总计 #[offense:240%] 的基础伤害。"
     },
     "BossDamageBonus": {
-      "name": "Armor-Piercing Rounds",
-      "description": "Deal an additional {'{'}offense:20%{'}'} damage {'{'}+20%{'}'} to bosses.",
-      "unlock": "Complete a Teleporter event."
+      "name": "穿甲弹",
+      "description": "对 BOSS 造成 #[offense:20%] #[+20%] 额外伤害。",
+      "unlock": "完成一次传送器事件。"
     },
     "CritGlasses": {
-      "name": "Lens-Maker's Glasses",
-      "description": "Your attacks have a {'{'}offense:10%{'}'} {'{'}+10%{'}'} chance to \"{'{'}offense:Critically Strike{'}'}\", dealing {'{'}offense:double damage{'}'}."
+      "name": "透镜制作者的眼镜",
+      "description": "你的攻击有 #[offense:10%] #[+10%] 几率 #[offense:暴击]，造成 #[offense:双倍伤害]。"
     },
     "Crowbar": {
-      "name": "Crowbar",
-      "description": "Deal {'{'}offense:75%{'}'} {'{'}+75%{'}'} damage to enemies above {'{'}offense:90% health{'}'}.",
-      "unlock": "Discover 10 unique white items."
+      "name": "撬棍",
+      "description": "对 #[offense:90%以上血量] 敌人造成 #[offense:75%] #[+75%] 额外伤害。",
+      "unlock": "发现 10 种不同的白色物品。"
     },
     "Firework": {
-      "name": "Bundle of Fireworks",
-      "description": "Opening a chest {'{'}offense:launches 8{'}'} {'{'}+4{'}'} {'{'}offense:fireworks{'}'} that deal {'{'}offense:300%{'}'} base damage.",
-      "unlock": "Duplicate the same item 7 times in a row with a 3D printer."
+      "name": "一捆烟花",
+      "description": "打开箱子会 #[offense:发射8枚] #[+4] #[offense:烟花]，每枚造成 #[offense:300%] 基础伤害.",
+      "unlock": "在一台3D打印机中连续打出 7 个相同物品。"
     },
     "RegeOnKill": {
-      "name": "Fresh Meat",
-      "description": "Increases {'{'}defense:maximum health{'}'} by {'{'}defense:25{'}'} {'{'}+25{'}'}."
+      "name": "野牛肉排",
+      "description": "#[defense:最大生命值] 提高 #[defense:25] #[+25] 点。"
     },
     "HealWhileSafe": {
-      "name": "Cautious Slug",
-      "description": "Increases {'{'}defense:base health regeneration{'}'} by {'{'}defense:+3 hp/s{'}'} {'{'}+3 hp/s{'}'} while outside of combat."
+      "name": "谨慎的蛞蝓",
+      "description": "脱离战斗时，提高 #[defense:基础生命回复] #[defense:+3 hp/s] #[+3 hp/s]。"
     },
     "Hoof": {
-      "name": "Paul's Goat Hoof",
-      "description": "Increases {'{'}misc:movement speed{'}'} by {'{'}misc:14%{'}'} {'{'}+14%{'}'}.",
-      "unlock": "Fail the Shrine of chance 3 times in a row."
+      "name": "保罗的山羊蹄",
+      "description": "#[misc:移动速度] 提高 #[misc:14%] #[+14%].",
+      "unlock": "在机遇神龛上连续失败 3 次。"
     },
     "IgniteOnKill": {
-      "name": "Gasoline",
-      "description": "Killing an enemy {'{'}offense:ignites{'}'} all enemies within {'{'}offense:12m{'}'} {'{'}+4{'}'}.\nEnnemies {'{'}offense:burn{'}'} for {'{'}offense:150%{'}'} {'{'}+75%{'}'} base damage."
+      "name": "汽油",
+      "description": "击杀敌人会 #[offense:点燃] 所有 #[offense:12m] #[+4m] 之内的敌人。\n#[offense:燃烧] 敌人 #[offense:150%] #[+75%] 的基础伤害。"
     },
     "Medkit": {
-      "name": "Medkit",
-      "description": "2 seconds after getting hurt, {'{'}defense:heal{'}'} for {'{'}defense:20{'}'} plus an additional {'{'}defense:5%{'}'} {'{'}+5%{'}'} of {'{'}defense:maximum health{'}'}.",
-      "unlock": "Defeat an Elite-type monster."
+      "name": "医疗包",
+      "description": "受到伤害的2秒之后, #[defense:治疗] #[defense:20] 点加上额外 #[defense:5%] #[+5%] 的 #[defense:最大生命值]。",
+      "unlock": "击败一位精英敌人."
     },
     "Mushroom": {
-      "name": "Bustling Fungus",
-      "description": "After standing still for {'{'}defense:2{'}'} seconds create a zone that {'{'}defense:heals{'}'} for {'{'}defense:4.5%{'}'} {'{'}+2.25%{'}'} of your {'{'}defense:health{'}'} every second to all allies within {'{'}defense:3m{'}'} {'{'}+1.5m{'}'}."
+      "name": "爆裂真菌",
+      "description": "站定不动 #[defense:2] 秒，将会生成一个半径 #[defense:3m] #[+1.5m] 的区域，每秒对其中所有友方单位 #[defense:治疗] #[defense:4.5%] #[+2.25%] 你的 #[defense:生命值]。"
     },
     "NearbyDamageBonus": {
-      "name": "Focus Crystal",
-      "description": "Increase damage to enemies withing {'{'}offense:13m{'}'} by {'{'}offense:20%{'}'} {'{'}+20%{'}'}."
+      "name": "凝神水晶",
+      "description": "对 #[offense:13m] 内的敌人造成额外 #[offense:20%] #[+20%] 伤害。"
     },
     "PersonalShield": {
-      "name": "Personal Shield Generator",
-      "description": "Gain a {'{'}defense:shield{'}'} equal to {'{'}defense:8%{'}'} {'{'}+8%{'}'} of your maximum healt. Recharges outside of danger."
+      "name": "个人护盾生成器",
+      "description": "获得等同于你最大生命值 #[defense:8%] #[+8%] 的 #[defense:护盾]。在战斗外恢复。"
     },
     "missinguid_itemScrapWhite": {
-      "name": "Item Scrap, White",
-      "description": "Does nothing. Prioritized when used with 3D Printers."
+      "name": "物品碎片，白色",
+      "description": "无效果，优先被3D打印机使用。"
     },
     "SecondarySkillMagazine": {
-      "name": "Backup Magazine",
-      "description": "Add {'{'}misc:+1{'}'} {'{'}+1{'}'} charge of your {'{'}misc:Secondary skill{'}'}.",
-      "unlock": "Fully charge a Teleporter without getting hit."
+      "name": "备用弹夹",
+      "description": "增加 #[misc:+1] #[+1] #[misc:次要技能] 的充能数。",
+      "unlock": "不受到任何伤害完全充能传送器。"
     },
     "SprintBonus": {
-      "name": "Energy Drink",
-      "description": "{'{'}misc:Sprint speed{'}'} is improved by {'{'}misc:25%{'}'} {'{'}+25%{'}'}."
+      "name": "能量饮料",
+      "description": "#[misc:冲刺速度] 提高 #[misc:25%] #[+25%]。"
     },
     "StickyBomb": {
-      "name": "Sticky Bomb",
-      "description": "{'{'}offense:5%{'}'} {'{'}+5%{'}'} chance on hit to attach a {'{'}offense:bomb{'}'} to an enemy, detonating for {'{'}offense:180%{'}'} TOTAL damage."
+      "name": "黏弹",
+      "description": "击中时有 #[offense:5%] #[+5%] 的几率在敌人身上附着一颗 #[offense:炸弹]，爆炸造成 #[offense:180%] 总伤害。"
     },
     "StunChanceOnHit": {
-      "name": "Stun Grenade",
-      "description": "{'{'}misc:5%{'}'} {'{'}+5%{'}'} chance on hit to {'{'}misc:stun{'}'} enemies for {'{'}misc:2{'}'} seconds."
+      "name": "眩晕手雷",
+      "description": "击中时有 #[misc:5%] #[+5%] 的几率 #[misc:眩晕] 敌人 #[misc:2] 秒。"
     },
     "Syringe": {
-      "name": "Soldier's Syringe",
-      "description": "Increase {'{'}offense:Attack Speed{'}'} by {'{'}offense:15%{'}'} {'{'}+15%{'}'}."
+      "name": "士兵的注射器",
+      "description": "#[offense:攻击速度] 提高 #[offense:15%] #[+15%]。"
     },
     "Tooth": {
-      "name": "Monster Tooth",
-      "description": "Killing an ennemy spawns a {'{'}defense:healing orb{'}'} that heals for {'{'}defense:8{'}'} plus an additional {'{'}defense:2%{'}'} {'{'}+2%{'}'} of {'{'}defense:maximum health{'}'}."
+      "name": "怪物牙齿",
+      "description": "杀死一个敌人生成 #[defense:治疗球]，治疗 #[defense:8] 点加上额外 #[defense:2%] #[+2%] 你的 #[defense:最大生命值]。"
     },
     "TreasureCache": {
-      "name": "Rusted Key",
-      "description": "A {'{'}misc:hidden cache{'}'} containing an item ({'{'}defense:80%{'}'}/{'{'}debuff:20%{'}'}) will appear in a random location {'{'}misc:on each stage{'}'}.\nOpening the cache {'{'}consumes{'}'} this item.",
-      "unlock": "Defeat the Teleporter boss under 15 seconds."
+      "name": "生锈的钥匙",
+      "description": "#[misc:每个场景] 会在随机位置生成一个 #[misc:隐藏箱]，包含一个物品 （#[defense:80%]/#[debuff:20%]）。\n打开箱子 #[消耗] 该钥匙。",
+      "unlock": "15 秒内打败传送器BOSS"
     },
     "LevelBonus": {
-      "name": "Warbanner",
-      "description": "On {'{'}misc:level up{'}'} or starting the {'{'}misc:Teleporter event{'}'}, drop a banner that strengthens all allies within {'{'}misc:16m{'}'} {'{'}+8m{'}'}.\nRaise {'{'}offense:attack{'}'} and {'{'}misc:movement speed{'}'} by {'{'}offense:30%{'}'}."
+      "name": "战旗",
+      "description": "在 #[misc:升级] 或开启 #[misc:传送器时间] 时，掉落一个会在 #[misc:16m] #[+8m] 内强化所有友军单位的旗帜。\n#[offense:攻击] 和 #[misc:移动速度] 提高 #[offense:30%]。"
     },
     "AttackSpeedOnCrit": {
-      "name": "Predatory Instincts",
-      "description": "{'{'}offense:Critical Strikes{'}'} increase {'{'}offense:attack speed{'}'} by {'{'}offense:12%{'}'}.\nMaximum cap of {'{'}offense:36%{'}'} {'{'}+24%{'}'} {'{'}offense:attack speed{'}'}.",
-      "unlock": "Reach +200% attack speed."
+      "name": "捕食本能",
+      "description": "#[offense:暴击] 使 #[offense:攻击速度] 提高 #[offense:12%]。\n最大提高 #[offense:36%] #[+24%] #[offense:攻击速度]。",
+      "unlock": "达到 +200% 攻击速度。"
     },
     "Bandolier": {
-      "name": "Bandolier",
-      "description": "{'{'}misc:18%{'}'} {'{'}+10%{'}'} chance on kill to drop an ammo pack that {'{'}misc:resets all cooldowns{'}'}."
+      "name": "子弹带",
+      "description": "击杀时有 #[misc:18%] #[+10%] 几率掉落一个可以 #[misc:重置所有冷却] 的弹药包。"
     },
     "BonusGoldPackOnKill": {
-      "name": "Ghor's Tome",
-      "description": "{'{'}misc:4%{'}'} {'{'}+4%{'}'} chance on kill to drop a treasure worth {'{'}misc:25{'$'}{'}'}. {'{'}misc:Scales over time.{'}'}"
+      "name": "古尔的巨著",
+      "description": "击杀时有 #[misc:4%] #[+4%] 的几率掉落一个价值 #[misc:25{'$'}] 的宝物。 #[misc:随时间调整]。"
     },
     "ChainLightning": {
-      "name": "Ukulele",
-      "description": "{'{'}offense:25%{'}'} chance to fire a {'{'}offense:chain lightning{'}'} for {'{'}offense:80%{'}'} TOTAL damage up to {'{'}offense:3{'}'} {'{'}+2{'}'} targets within {'{'}offense:20m{'}'} {'{'}+2m{'}'}."
+      "name": "尤克里里",
+      "description": "#[offense:25%] 的几率发射 #[offense:连锁闪电] 造成 #[offense:80%] 总伤害，最多 #[offense:20m] #[+2m] 内的 #[offense:3] #[+2] 名目标。"
     },
     "missinguid_deathMark": {
-      "name": "Death Mark",
-      "description": "Enemies with {'{'}offense:4{'}'} or more debuffs are {'{'}offense:marked for death{'}'}, increasing damage taken by {'{'}offense:50%{'}'} from all sources for {'{'}misc:7{'}'} {'{'}+7{'}'} seconds."
+      "name": "死亡标记",
+      "description": "拥有 #[offense:4] 种或更多减益效果的敌人被 #[offense:死亡标记], 从所有来源中承受 #[offense:50%] 更多伤害，持续 #[misc:7] #[+7] 秒。"
     },
     "EnergizedOnEquipmentUse": {
-      "name": "War Horn",
-      "description": "Activating your Equipment gives you {'{'}offense:+70% attack speed{'}'} for {'{'}offense:8s{'}'} {'{'}+4s{'}'}.",
-      "unlock": "Complete 3 Combat Shrines in a single stage."
+      "name": "战争号角",
+      "description": "激活装备给予你 #[offense:+70%攻速]，持续 #[offense:8] #[+4] 秒。",
+      "unlock": "一个场景中完成 3 个战斗神龛。"
     },
     "EquipmentMagazine": {
-      "name": "Fuel Cell",
-      "description": "Hold an {'{'}misc:additional equipment charge{'}'} {'{'}+1{'}'}.\n{'{'}misc:Reduce equipment cooldown{'}'} by {'{'}misc:15%{'}'} {'{'}+15%{'}'}.",
-      "unlock": "Pickup 5 different types of Equipment."
+      "name": "燃料电池",
+      "description": "拥有 #[+1] #[misc:额外装备充能].\n#[misc:装备冷却时间] 降低 #[misc:15%] #[+15%]。",
+      "unlock": "拾起五种不同类型的装备。"
     },
     "ExecuteLowHealthElite": {
-      "name": "Old Guillotine",
-      "description": "Instantly kill Elite Monsters below {'{'}debuff:13%{'}'} {'{'}+13%{'}'} {'{'}debuff:health{'}'}.",
-      "unlock": "Defeat 500 Elite Monsters."
+      "name": "陈旧断头台",
+      "description": "立即斩杀 #[debuff:生命值] 低于 #[debuff:13%] #[+13%] 的精英怪物。",
+      "unlock": "击败 500 个精英怪物。"
     },
     "ExplodeOnDeath": {
-      "name": "Will-O'-the-wisp",
-      "description": "On killing an enemy, spawn a {'{'}offense:lava pillar{'}'} in a {'{'}offense:12m{'}'} {'{'}+2.4m{'}'} radius for {'{'}offense:350%{'}'} {'{'}+280%{'}'} base damage."
+      "name": "鬼火",
+      "description": "击杀敌人时生成一个 #[offense:岩浆柱]，在 #[offense:12m] #[+2.4m] 半径内造成 #[offense:350%] #[+280%] 基础伤害。"
     },
     "Feather": {
-      "name": "Hopoo Feather",
-      "description": "Gain {'{'}misc:+1{'}'} {'{'}+1{'}'} maximum {'{'}misc:jump count{'}'}."
+      "name": "Hopoo 羽毛",
+      "description": "获得 #[misc:+1] #[+1] 最大 #[misc:跳跃数]。"
     },
     "FireRing": {
-      "name": "Kjaro's Band",
-      "description": "Hits that deals {'{'}offense:more than 400% damage{'}'} also blasts enemies with a {'{'}offense:runic flame tornado{'}'}, dealing {'{'}offense:300%{'}'} {'{'}+300%{'}'} TOTAL damage over time. Recharge every {'{'}misc:10{'}'} seconds.",
-      "unlock": "Discover the hidden chamber in the Abandonned Aqueduct."
+      "name": "贾罗的手环",
+      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文火焰龙卷] 袭击敌人，持续造成 #[offense:300%] #[+300%] 总伤害。每 #[misc:10] 秒重新充能。",
+      "unlock": "TODO Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "HealOnCrit": {
-      "name": "Harvester's Scythe",
-      "description": "Gain {'{'}offense:5% critical chance{'}'}.\n{'{'}offense:Critical strikes{'}'} {'{'}defense:heal{'}'} for {'{'}defense:8{'}'} {'{'}+4{'}'} {'{'}defense:health{'}'}.",
-      "unlock": "Complete a Prismatic Trial."
+      "name": "收割者镰刀",
+      "description": "获得 #[offense:5%暴击率]。\n#[offense:暴击] #[defense:治疗] #[defense:8] #[+4] 点 #[defense:生命]。",
+      "unlock": "完成一场棱镜实验。"
     },
     "IceRing": {
-      "name": "Runald's Band",
-      "description": "Hits that deals {'{'}offense:more than 400% damage{'}'} also blasts enemies with a {'{'}offense:runic ice blast{'}'}, {'{'}misc:slowing{'}'} them by {'{'}misc:80%{'}'} for {'{'}misc:3s{'}'} {'{'}+3s{'}'} and dealing {'{'}offense:250%{'}'} {'{'}+250%{'}'} TOTAL damage. Recharge every {'{'}misc:10{'}'} seconds.",
-      "unlock": "Discover the hidden chamber in the Abandonned Aqueduct."
+      "name": "鲁纳德的手环",
+      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文冰霜爆破] 袭击敌人，#[misc:迟缓] 敌人 #[misc:80%]，持续 #[misc:3] #[+3] 秒，并造成 #[offense:250%] #[+250%] 总伤害。每 #[misc:10] 秒重新充能。",
+      "unlock": "TODO Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "Infusion": {
-      "name": "Infusion",
-      "description": "Killing an enemy increases your {'{'}defense:health permanently{'}'} by {'{'}defense:1{'}'}, up to a {'{'}defense:maximum{'}'} of {'{'}defense:100{'}'} {'{'}+100{'}'} {'{'}defense:health{'}'}.",
-      "unlock": "Defeat 3000 enemies."
+      "name": "浸剂",
+      "description": "杀死一个敌人永久提高你的 #[defense:生命上限] #[defense:1] 点，#[defense:最多] 提高 #[defense:100] #[+100] 点 #[defense:生命]。",
+      "unlock": "击败 3000 个敌人。"
     },
     "JumpBoost": {
-      "name": "Wax Quail",
-      "description": "{'{'}defense:Jumping{'}'} while {'{'}defense:sprinting{'}'} boosts you forward by {'{'}defense:10m{'}'} {'{'}+10m{'}'}.",
-      "unlock": "Reach +300% movespeed (include sprinting)."
+      "name": "蜡鹌鹑",
+      "description": "#[defense:冲刺] 时 #[defense:跳跃] 推进 #[defense:10m] #[+10m]。",
+      "unlock": "达到 +300% 移动速度（包括冲刺）。"
     },
     "Missile": {
-      "name": "AtG Missile Mk. 1",
-      "description": "{'{'}offense:10%{'}'} chance to fire a missile that deals {'{'}offense:300%{'}'} {'{'}+300%{'}'} TOTAL damage."
+      "name": "AtG导弹Mk.1",
+      "description": "#[offense:10%] 几率发射一枚导弹，造成 #[offense:300%] #[+300%] 总伤害。"
     },
     "Phasing": {
-      "name": "Old War Stealthkit",
-      "description": "Falling below {'{'}debuff:25% health{'}'} causes you to gain {'{'}misc:40% movement speed{'}'} and {'{'}misc:invisibility{'}'} for {'{'}misc:5s{'}'}.\nRecharges every {'{'}misc:30 seconds{'}'} {'{'}-50%{'}'}."
+      "name": "老旧战争潜行工具",
+      "description": "低于 #[debuff:25%生命值] 时使你获得 #[misc:40%移动速度] 和 #[misc:隐身]，持续 #[misc:5] 秒.\n每 #[misc:30秒] #[-50%] 秒重新充能。"
     },
     "missinguid_itemScrapGreen": {
-      "name": "Item Scrap, Green",
-      "description": "Does nothing. Prioritized when used with 3D Printers."
+      "name": "物品碎片，绿色",
+      "description": "无效果，优先被3D打印机使用。"
     },
     "Seed": {
-      "name": "Leeching Seed",
-      "description": "Dealing damage {'{'}defense:heals{'}'} you for {'{'}defense:1{'}'} {'{'}+1{'}'} {'{'}defense:health{'}'}."
+      "name": "吸血种子",
+      "description": "造成伤害时 #[defense:治疗] 你 #[defense:1] #[+1] 点 #[defense:生命]。"
     },
     "SlowOnHit": {
-      "name": "Chronobauble",
-      "description": "{'{'}misc:Slow{'}'} enemies for {'{'}misc:-60% movement speed{'}'} for {'{'}misc:2s{'}'} {'{'}+2s{'}'}."
+      "name": "时空装置",
+      "description": "#[misc:减速] 敌人 #[misc:-60% 移动速度]，持续 #[misc:2] #[+2] 秒。"
     },
     "SprintArmor": {
-      "name": "Rose Buckler",
-      "description": "{'{'}defense:Increase armor{'}'} by {'{'}defense:30{'}'} {'{'}+30{'}'} while {'{'}misc:sprinting{'}'}."
+      "name": "玫瑰圆盾",
+      "description": "#[misc:sprinting] 时 #[defense:提高护甲] #[defense:30] #[+30] 点。"
     },
     "SprintOutOfCombat": {
-      "name": "Red Whip",
-      "description": "Leaving combat boosts {'{'}misc:movement speed{'}'} by {'{'}misc:30%{'}'} {'{'}+30%{'}'}."
+      "name": "红鞭子",
+      "description": "脱离战斗时 #[misc:移动速度] 提高 #[misc:30%] #[+30%]。"
     },
     "missinguid_squidPolyp": {
-      "name": "Squid Polyp",
-      "description": "Activating an interactable summons a {'{'}offense:Squid Turret{'}'} that attacks nearby enemies at {'{'}offense:100%{'}'} {'{'}+100%{'}'} {'{'}offense:attack speed{'}'}. Lasts {'{'}misc:30{'}'} seconds.",
-      "unlock": "Activate 6 turrets in a single run."
+      "name": "乌贼增生体",
+      "description": "激活一个可互动物会召唤一个 #[offense:乌贼炮台]，以 #[offense:100%] #[+100%] #[offense:攻击速度] 攻击附近的敌人。持续 #[misc:30] 秒。",
+      "unlock": "一次游戏中激活 6 个炮台。"
     },
     "TPHealingNova": {
-      "name": "Lepton Daisy",
-      "description": "Release a {'{'}defense:healing nova{'}'} during the Teleporter event, {'{'}defense:healing{'}'} all nearby allies for {'{'}defense:50%{'}'} of their maximum health. Occurs {'{'}defense:1{'}'} {'{'}+1{'}'} times."
+      "name": "轻粒子雏菊",
+      "description": "在传送器事件中释放 #[defense:治疗新星]，#[defense:治疗] 所有附近友军单位 #[defense:50%] 他们的最大生命值。出现 #[defense:1] #[+1] 次。"
     },
     "Thorns": {
-      "name": "Razorwire",
-      "description": "Getting hit causes you to explode in a burst of razors, dealing {'{'}offense:160% damage{'}'}.\nHits up to {'{'}offense:5{'}'} {'{'}+2{'}'} targets in a {'{'}offense:25m{'}'} {'{'}+10m{'}'} radius."
+      "name": "剃刀尖网",
+      "description": "被击中使你爆炸，迸发一阵剃刀，造成 #[offense:160%伤害]。\n最多在半径 #[offense:25m] #[+10m] 内击中 #[offense:5] #[+2] 个敌人。"
     },
     "WarCryOnMultiKill": {
-      "name": "Berzerker's Pauldron",
-      "description": "{'{'}offense:Killing 3 enemies{'}'} within {'{'}offense:1{'}'} second sends you into a {'{'}offense:frenzy{'}'} for {'{'}offense:6s{'}'} {'{'}+4s{'}'}.\nIncreases {'{'}misc:movement speed{'}'} by {'{'}misc:50%{'}'} and {'{'}offense:attack speed{'}'} by {'{'}offense:100%{'}'}.",
-      "unlock": "Charge the Teleporter with less than 10% health."
+      "name": "狂战士肩甲",
+      "description": "#[offense:1] 秒内 #[offense:杀死3个敌人] 使你 #[offense:狂暴]，持续 #[offense:6] #[+4] 秒.\n#[misc:移动速度] 提高 #[misc:50%]，#[offense:攻击速度] 提高 #[offense:100%]。",
+      "unlock": "以低于 10% 生命值的方式充能传送器。"
     },
     "AlienHead": {
-      "name": "Alien Head",
-      "description": "{'{'}misc:Reduce skill cooldown{'}'} by {'{'}misc:25%{'}'} {'{'}+25%{'}'}."
+      "name": "外星脑袋",
+      "description": "#[misc:降低技能冷却] #[misc:25%] #[+25%]。"
     },
     "ArmorReductionOnHit": {
-      "name": "Shattering Justice",
-      "description": "After hitting an enemy {'{'}offense:5{'}'} times, reduce their {'{'}offense:armor{'}'} by {'{'}offense:60{'}'} for {'{'}offense:8{'}'} {'{'}+8{'}'} seconds."
+      "name": "粉碎之正义",
+      "description": "击中一个敌人 #[offense:5] 次后，降低其 #[offense:护甲] #[offense:60] 点，持续 #[offense:8] #[+8] 秒。"
     },
     "BarrierOnOverHeal": {
-      "name": "Aegis",
-      "description": "Healing past full grants you a {'{'}defense:temporary barrier{'}'} for up to {'{'}defense:50%{'}'} {'{'}+50%{'}'} of the amount you {'{'}defense:healed{'}'}."
+      "name": "庇护",
+      "description": "治疗溢出给予你最大 #[defense:50%] #[+50%] #[defense:治疗量] 的 #[defense:临时屏障]。"
     },
     "Behemoth": {
-      "name": "Brilliant Behemoth",
-      "description": "All your {'{'}offense:attacks explode{'}'} in a {'{'}offense:4m{'}'} {'{'}+1.5m{'}'} radius for a bonus {'{'}offense:60%{'}'} TOTAL damage to nearby enemies."
+      "name": "完美巨兽",
+      "description": "你的所有 #[offense:攻击会爆炸]， 对半径 #[offense:4m] #[+1.5m] 范围内的敌人造成额外 #[offense:60%] 总伤害."
     },
     "BounceNearby": {
-      "name": "Sentient Meat Hook",
-      "description": "{'{'}offense:20%{'}'} {'{'}+20%{'}'} chance on hit to {'{'}offense:fire homing hooks{'}'} at up to {'{'}offense:10{'}'} {'{'}+5{'}'} enemies for {'{'}offense:100%{'}'} TOTAL damage.",
-      "unlock": "Loop back to the first stage."
+      "name": "感应肉钩",
+      "description": "击中时有 #[offense:20%] #[+20%] 几率对做多 #[offense:10] #[+5] 个敌人 #[offense:发射追踪钩]，造成 #[offense:100%] 总伤害。",
+      "unlock": "循环至第一场景。"
     },
     "missinguid_defensiveMicrobots": {
-      "name": "Defensive Microbots",
-      "description": "Shoot down {'{'}offense:1{'}'} {'{'}+1{'}'} projectiles within {'{'}offense:20m{'}'} every {'{'}offense:0.5 seconds{'}'}. {'{'}misc:Recharge rate scales with attack speed{'}'}."
+      "name": "防御用微型机器人",
+      "description": "每 #[offense:0.5秒] 击坠 #[offense:20m] 内的 #[offense:1] #[+1] 个投射物。#[misc:充能速度随攻速变化]。"
     },
     "Clover": {
-      "name": "57 Leaf Clover",
-      "description": "All random effects are rolled {'{'}misc:+1{'}'} {'{'}+1{'}'} {'{'}misc:times for a favorable outcome{'}'}.",
-      "unlock": "Complete 20 stages in a single run."
+      "name": "57片叶子的三叶草",
+      "description": "所有随机效果额外重掷 #[misc:+1] #[+1] 次， #[misc:取更好的结果]。",
+      "unlock": "一次游戏中完成20个场景。"
     },
     "Dagger": {
-      "name": "Ceremonial Dagger",
-      "description": "Killing an enemy fires out {'{'}offense:3 homing daggers{'}'} that deal {'{'}offense:150%{'}'} {'{'}+150%{'}'} base damage."
+      "name": "仪式用匕首",
+      "description": "杀死一个敌人生成 #[offense:3把追踪匕首]，造成 #[offense:150%] #[+150%] 基础伤害。"
     },
     "ExtraLife": {
-      "name": "Dio's Best Friend",
-      "description": "{'{'}misc:Upon Death{'}'}, this item will be {'{'}misc:consumed{'}'} and you will {'{'}defense:return to life{'}'} with {'{'}defense:3 seconds of invulnerability{'}'}.",
-      "unlock": "Stay alive for 30 consecutive minutes."
+      "name": "迪奥最好的朋友",
+      "description": "#[misc:濒死时]，该物品将被 #[misc:消耗] 使你 #[defense:复活] 并 #[defense:无敌3秒]。",
+      "unlock": "连续存活 30 分钟。"
     },
     "FallBoots": {
       "name": "H3AD-5T v2",
-      "description": "Increase {'{'}misc:jump height{'}'}.\nCreates a {'{'}offense:5m-100m{'}'} radius {'{'}offense:kinetic explosion{'}'} on hitting the ground, dealing {'{'}offense:1000%-10000%{'}'} base damage that scales up with {'{'}offense:fall distance{'}'}.\nRecharges in {'{'}offense:10{'}'} {'{'}-50%{'}'} seconds."
+      "description": "提高 #[misc:跳跃高度]。\nCreates a #[offense:5m-100m] radius #[offense:kinetic explosion] on hitting the ground, dealing #[offense:1000%-10000%] base damage that scales up with #[offense:fall distance].\nRecharges in #[offense:10] #[-50%] seconds."
     },
     "GhostOnKill": {
-      "name": "Happiest Mask",
-      "description": "Killing enemies has a {'{'}offense:7%{'}'} chance to {'{'}offense:spawn a ghost{'}'} of the killed enemy with {'{'}offense:1500%{'}'} damage. Lasts {'{'}offense:30s{'}'} {'{'}+30s{'}'}."
+      "name": "欢乐面具",
+      "description": "Killing enemies has a #[offense:7%] chance to #[offense:spawn a ghost] of the killed enemy with #[offense:1500%] damage. Lasts #[offense:30s] #[+30s]."
     },
     "HeadHunter": {
-      "name": "Wake of Vultures",
-      "description": "Gain the {'{'}offense:power{'}'} of any killed elite monster for {'{'}offense:8s{'}'} {'{'}+5s{'}'}."
+      "name": "秃鹫的苏醒",
+      "description": "获得被击杀精英敌人的 #[offense:能力]，持续 #[offense:8] #[+5] 秒。"
     },
     "Icicle": {
-      "name": "Frost Relic",
-      "description": "Killing an enemy surrounds you with an {'{'}offense:ice storm{'}'} that deals {'{'}offense:600% damage per second{'}'} and {'{'}misc:slows{'}'} enemies by {'{'}misc:80%{'}'} for {'{'}misc:1.5s{'}'}.\nThe storm {'{'}offense:grows with every kill{'}'}, increasing it's radius by {'{'}offense:1m{'}'}.\nStacks up to {'{'}offense:6m{'}'} {'{'}+6m{'}'}."
+      "name": "冰霜圣物",
+      "description": "Killing an enemy surrounds you with an #[offense:ice storm] that deals #[offense:600% damage per second] and #[misc:slows] enemies by #[misc:80%] for #[misc:1.5s].\nThe storm #[offense:grows with every kill], increasing it's radius by #[offense:1m].\nStacks up to #[offense:6m] #[+6m]."
     },
     "IncreaseHealing": {
-      "name": "Rejuvenation Rack",
-      "description": "{'{'}defense:Heal +100%{'}'} {'{'}+100%{'}'} more.",
-      "unlock": "Without healing, reach and complete the 3rd Teleporter event."
+      "name": "回春支架",
+      "description": "#[defense:治疗量提高 +100%] #[+100%]。",
+      "unlock": "不受到治疗的情况下，到达并完成第 3 个传送器事件。"
     },
     "KillEliteFrenzy": {
-      "name": "Brainstalks",
-      "description": "Upon killing an elite monster, {'{'}offense:enter a frenzy{'}'} for {'{'}offense:4s{'}'} {'{'}+4s{'}'} where {'{'}misc:skills have no cooldowns{'}'}.",
+      "name": "脑部跟踪",
+      "description": "Upon killing an elite monster, #[offense:enter a frenzy] for #[offense:4s] #[+4s] where #[misc:skills have no cooldowns].",
       "unlock": "Defeat an Elite boss on Monsoon difficulty."
     },
     "LaserTurbine": {
-      "name": "Resonance Disc",
-      "description": "Killing {'{'}offense:4{'}'} enemies in {'{'}misc:7 seconds{'}'} charges the Resonance Disc.\nThe disc launches itself toward a target for {'{'}offense:300%{'}'} base damage {'{'}+300%{'}'}, piercing all enemies it doesn't kill, and then explodes for {'{'}offense:1000%{'}'} base damage {'{'}+1000%{'}'}.\nReturns to the user, striking all enemies along the way for {'{'}offense:300%{'}'} base damage {'{'}+300%{'}'}."
+      "name": "共鸣圆盘",
+      "description": "Killing #[offense:4] enemies in #[misc:7 seconds] charges the Resonance Disc.\nThe disc launches itself toward a target for #[offense:300%] base damage #[+300%], piercing all enemies it doesn't kill, and then explodes for #[offense:1000%] base damage #[+1000%].\nReturns to the user, striking all enemies along the way for #[offense:300%] base damage #[+300%]."
     },
     "NovaOnHeal": {
-      "name": "N'kuhana's Opinion",
-      "description": "Store {'{'}defense:100%{'}'} {'{'}+100%{'}'} of healing as {'{'}defense:Soul Energy{'}'}.\nAfter your {'{'}defense:Soul Energy{'}'} reaches {'{'}defense:10%{'}'} of your {'{'}defense:maximum health{'}'}, {'{'}offense:fire a skull{'}'} that deals {'{'}offense:250%{'}'} of your {'{'}defense:Soul Energy{'}'} as {'{'}offense:damage{'}'}.",
+      "name": "恩库哈纳的意见",
+      "description": "Store #[defense:100%] #[+100%] of healing as #[defense:Soul Energy].\nAfter your #[defense:Soul Energy] reaches #[defense:10%] of your #[defense:maximum health], #[offense:fire a skull] that deals #[offense:250%] of your #[defense:Soul Energy] as #[offense:damage].",
       "unlock": "Find the Altar to N'kuhana."
     },
     "missinguid_interstellarDeskPlant": {
-      "name": "Interstellar Desk Plant",
-      "description": "On kill, plant a {'{'}defense:healing{'}'} fruit seed that grows into a plant after {'{'}misc:5{'}'} seconds.\nThe plant {'{'}defense:heals{'}'} for {'{'}defense:10%{'}'} of {'{'}defense:maximum health{'}'} every second to all allies withing {'{'}defense:5m{'}'} {'{'}+5m{'}'}. Last {'{'}misc:10{'}'} seconds."
+      "name": "星际桌子工厂",
+      "description": "On kill, plant a #[defense:healing] fruit seed that grows into a plant after #[misc:5] seconds.\nThe plant #[defense:heals] for #[defense:10%] of #[defense:maximum health] every second to all allies withing #[defense:5m] #[+5m]. Last #[misc:10] seconds."
     },
     "missinguid_itemScrapRed": {
-      "name": "Item Scrap, Red",
-      "description": "Does nothing. Prioritized when used with 3D Printers."
+      "name": "物品碎片，红色",
+      "description": "无效果，优先被3D打印机使用。"
     },
     "ShockNearby": {
-      "name": "Unstable Tesla Coil",
-      "description": "Fire out {'{'}offense:lightning{'}'} that hits {'{'}offense:3{'}'} {'{'}+2{'}'} enemies for {'{'}offense:200%{'}'} base damage every {'{'}offense:0.5s{'}'}.\nThe Tesla Coil switches off every {'{'}offense:10 seconds{'}'}.",
-      "unlock": "Deal 5000 damage in one shot."
+      "name": "不稳定的特斯拉线圈",
+      "description": "Fire out #[offense:lightning] that hits #[offense:3] #[+2] enemies for #[offense:200%] base damage every #[offense:0.5s].\nThe Tesla Coil switches off every #[offense:10 seconds].",
+      "unlock": "一击造成 5000 点伤害。"
     },
     "Talisman": {
-      "name": "Souldbound Catalyst",
-      "description": "{'{'}offense:Kills reduce{'}'} {'{'}misc:equipment cooldown{'}'} by {'{'}misc:4s{'}'} {'{'}+2s{'}'}.",
+      "name": "灵魂绑定触媒",
+      "description": "#[offense:Kills reduce] #[misc:equipment cooldown] by #[misc:4s] #[+2s].",
       "unlock": "Discover and activate 8 unique Newt Altars."
     },
     "UtilitySkillMagazine": {
-      "name": "Hardlight Afterburner",
-      "description": "Add {'{'}misc:+2{'}'} {'{'}+2{'}'} charges of your {'{'}misc:Utility skill{'}'}.\n{'{'}misc:Reduces Utility skill cooldown{'}'} by {'{'}misc:33%{'}'}."
+      "name": "强光补燃器",
+      "description": "Add #[misc:+2] #[+2] charges of your #[misc:Utility skill].\n#[misc:Reduces Utility skill cooldown] by #[misc:33%]."
     },
     "missinguid_artifactKey": {
-      "name": "Artifact Key",
+      "name": "神器钥匙",
       "description": "A stone shard with immense power."
     },
     "BeetleGland": {
-      "name": "Queen's Gland",
-      "description": "Every 30 seconds, {'{'}misc:summon a Beetle Guard{'}'} with bonus {'{'}offense:300%{'}'} damage and {'{'}defense:100%{'}'} health.\nCan have up to {'{'}misc:1{'}'} {'{'}+1{'}'} Guards at a time."
+      "name": "女王的腺体",
+      "description": "Every 30 seconds, #[misc:summon a Beetle Guard] with bonus #[offense:300%] damage and #[defense:100%] health.\nCan have up to #[misc:1] #[+1] Guards at a time."
     },
     "missinguid_shatterspleen": {
-      "name": "Shatterspleen",
-      "description": "{'{'}offense:Critical Strikes bleed{'}'} enemies for {'{'}offense:240%{'}'} base damage. {'{'}offense:Bleeding{'}'} enemies {'{'}offense:explode{'}'} on death for {'{'}offense:400%{'}'} {'{'}+400%{'}'} damage, plus an additional {'{'}offense:15%{'}'} {'{'}+15%{'}'} of their maximum health."
+      "name": "易爆的脾脏",
+      "description": "#[offense:Critical Strikes bleed] enemies for #[offense:240%] base damage. #[offense:Bleeding] enemies #[offense:explode] on death for #[offense:400%] #[+400%] damage, plus an additional #[offense:15%] #[+15%] of their maximum health."
     },
     "missinguid_moltenPerforator": {
-      "name": "Molten Perforator",
-      "description": "{'{'}offense:10%{'}'} chance on hit to call forth {'{'}offense:3 magma balls{'}'} from an enemy, dealing {'{'}offense:300%{'}'} {'{'}+300%{'}'} damage each."
+      "name": "熔融钻机",
+      "description": "#[offense:10%] chance on hit to call forth #[offense:3 magma balls] from an enemy, dealing #[offense:300%] #[+300%] damage each."
     },
     "Knurl": {
-      "name": "Titanic Knurl",
-      "description": "{'{'}defense:Increases maximum health{'}'} by {'{'}defense:40{'}'} {'{'}+40{'}'} and {'{'}defense:base health regeneration{'}'} by {'{'}defense:+1.6 hp/s{'}'} {'{'}+1.6 hp/s{'}'}."
+      "name": "巨型隆起",
+      "description": "#[defense:Increases maximum health] by #[defense:40] #[+40] and #[defense:base health regeneration] by #[defense:+1.6 hp/s] #[+1.6 hp/s]."
     },
     "missinguid_chargedPerforator": {
-      "name": "Charged Perforator",
-      "description": "{'{'}offense:10%{'}'} chance on hit to do down a lightning strike, dealing {'{'}offense:500%{'}'} {'{'}+500%{'}'} damage."
+      "name": "电能钻机",
+      "description": "#[offense:10%] chance on hit to do down a lightning strike, dealing #[offense:500%] #[+500%] damage."
     },
     "NovaOnLowHealth": {
-      "name": "Genesis Loop",
-      "description": "Falling below {'{'}debuff:25% health{'}'} causes you to explode, dealing {'{'}offense:6000% base damage{'}'}. Recharges every {'{'}misc:30 seconds{'}'} {'{'}-50%{'}'}."
+      "name": "创世之环",
+      "description": "Falling below #[debuff:25% health] causes you to explode, dealing #[offense:6000% base damage]. Recharges every #[misc:30 seconds] #[-50%]."
     },
     "missinguid_planula": {
-      "name": "Planula",
-      "description": "Heal from {'{'}offense:incoming damage{'}'} for {'{'}defense:15{'}'} {'{'}+15{'}'}"
+      "name": "浮浪幼体",
+      "description": "Heal from #[offense:incoming damage] for #[defense:15] #[+15]"
     },
     "Pearl": {
-      "name": "Pearl",
-      "description": "Increases {'{'}defense:maximum health{'}'} by {'{'}defense:10%{'}'} {'{'}+10%{'}'}."
+      "name": "珍珠",
+      "description": "Increases #[defense:maximum health] by #[defense:10%] #[+10%]."
     },
     "missinguid_empathyCores": {
-      "name": "Empathy Cores",
-      "description": "Every 30 seconds, {'{'}misc:summon two Solus Probes{'}'} that gain {'{'}offense:+100%{'}'} {'{'}+100%{'}'} damage per {'{'}misc:ally on your team{'}'}."
+      "name": "共情核心",
+      "description": "Every 30 seconds, #[misc:summon two Solus Probes] that gain #[offense:+100%] #[+100%] damage per #[misc:ally on your team]."
     },
     "missinguid_itemScrapYellow": {
-      "name": "Item Scrap, Yellow",
-      "description": "Does nothing. Prioritized when used with 3D Printers."
+      "name": "物品碎片，黄色",
+      "description": "无效果，优先被3D打印机使用。"
     },
     "ShinyPearl": {
-      "name": "Irradiant Pearl",
-      "description": "Increases {'{'}misc:ALL stats{'}'} by {'{'}misc:10%{'}'} {'{'}+10%{'}'}."
+      "name": "璀璨珍珠",
+      "description": "Increases #[misc:ALL stats] by #[misc:10%] #[+10%]."
     },
     "missinguid_miredUrn": {
-      "name": "Mired Urn",
-      "description": "While in combat, the nearest 1 {'{'}+1{'}'} characters to you within {'{'}offense:13m{'}'} whill be \"tethered\" to you, dealing {'{'}offense:100%{'}'} damage per second, applying {'{'}offense:tar{'}'}, and {'{'}defense:healing{'}'} your for {'{'}defense:100%{'}'} of the damage dealt."
+      "name": "泥沼之瓮",
+      "description": "While in combat, the nearest 1 #[+1] characters to you within #[offense:13m] whill be \"tethered\" to you, dealing #[offense:100%] damage per second, applying #[offense:tar], and #[defense:healing] your for #[defense:100%] of the damage dealt."
     },
     "SprintWisp": {
-      "name": "Little Disciple",
-      "description": "Fire a {'{'}offense:tracking wisp{'}'} for {'{'}offense:300%{'}'} {'{'}+300%{'}'} {'{'}offense:damage{'}'}.\nFires every 1.6 seconds while sprinting. Fire rate increases with {'{'}misc:movement speed{'}'}."
+      "name": "小门徒",
+      "description": "Fire a #[offense:tracking wisp] for #[offense:300%] #[+300%] #[offense:damage].\nFires every 1.6 seconds while sprinting. Fire rate increases with #[misc:movement speed]."
     },
     "TitanGoldDuringTP": {
-      "name": "Halcyon Seed",
-      "description": "Summon {'{'}offense:Aurelionite{'}'} during the teleporter event.\nIt has {'{'}offense:100%{'}'} {'{'}+50%{'}'} {'{'}offense:damage{'}'} and {'{'}defense:100%{'}'} {'{'}+100%{'}'} {'{'}defense:health{'}'}."
+      "name": "哈雷肯种子",
+      "description": "Summon #[offense:Aurelionite] during the teleporter event.\nIt has #[offense:100%] #[+50%] #[offense:damage] and #[defense:100%] #[+100%] #[defense:health]."
     },
     "AutoCastEquipment": {
-      "name": "Gesture of the Drowned",
-      "description": "{'{'}misc:Reduce equipment cooldown{'}'} by {'{'}misc:50%{'}'} {'{'}+15%{'}'}.\nForces your Equipment to {'{'}misc:activate{'}'} whenever it is off {'{'}misc:cooldown{'}'}.",
+      "name": "溺死者的心意",
+      "description": "#[misc:Reduce equipment cooldown] by #[misc:50%] #[+15%].\nForces your Equipment to #[misc:activate] whenever it is off #[misc:cooldown].",
       "unlock": "Kill 20 Hermit Crabs by chasing them off the edge of the map."
     },
     "missinguid_focusedConvergence": {
-      "name": "Focused Convergence",
-      "description": "Teleporters charge {'{'}misc:30%{'}'} {'{'}+30%{'}'} {'{'}misc:faster{'}'}, but the size of the Teleporter zone is {'{'}debuff:50%{'}'} {'{'}-50%{'}'} smaller.",
+      "name": "专注趋同",
+      "description": "Teleporters charge #[misc:30%] #[+30%] #[misc:faster], but the size of the Teleporter zone is #[debuff:50%] #[-50%] smaller.",
       "unlock": "In 4 consecutives stages, don't leave the teleporter radius until it is fully charged."
     },
     "GoldOnHit": {
-      "name": "Brittle Crown",
-      "description": "{'{'}misc:30% chance on hit{'}'} to gain {'{'}misc:2{'}'} {'{'}+2{'}'} {'{'}misc:gold{'}'}. {'{'}misc:Scales over time{'}'}.\n{'{'}debuff:Lose gold{'}'} equal to {'{'}debuff:100%{'}'} {'{'}+100%{'}'} of amount your are hit for OR lose % gold equal to {'{'}debuff:100%{'}'} {'{'}+100%{'}'} of the maximum health % you lost.\nChooses the greater of the two."
+      "name": "易碎王冠",
+      "description": "#[misc:30% chance on hit] to gain #[misc:2] #[+2] #[misc:gold]. #[misc:Scales over time].\n#[debuff:Lose gold] equal to #[debuff:100%] #[+100%] of amount your are hit for OR lose % gold equal to #[debuff:100%] #[+100%] of the maximum health % you lost.\nChooses the greater of the two."
     },
     "missinguid_purity": {
-      "name": "Purity",
-      "description": "All skill cooldowns are reduced by {'{'}misc:2{'}'} {'{'}+1{'}'} seconds. All random effects are rolled {'{'}misc:+1{'}'} {'{'}+1{'}'} times for an {'{'}debuff:unfavorable outcome{'}'}.",
+      "name": "纯净",
+      "description": "All skill cooldowns are reduced by #[misc:2] #[+1] seconds. All random effects are rolled #[misc:+1] #[+1] times for an #[debuff:unfavorable outcome].",
       "unlock": "Beat the game in Monsoon difficulty."
     },
     "LunarDagger": {
-      "name": "Shaped Glass",
-      "description": "Increase base damage by {'{'}offense:100%{'}'} {'{'}+100%{'}'}.\n{'{'}defense:Reduce maximum health by 50%{'}'} {'{'}+50%{'}'}."
+      "name": "塑性玻璃",
+      "description": "Increase base damage by #[offense:100%] #[+100%].\n#[defense:Reduce maximum health by 50%] #[+50%]."
     },
     "LunarPrimaryReplacement": {
-      "name": "Visions of Heresy",
-      "description": "{'{'}misc:Replace your Primary Skill{'}'} with {'{'}misc:Hungering Gaze{'}'}.\nFire a flurry of {'{'}misc:tracking shards{'}'} that detonate after a delay, dealing {'{'}offense:120%{'}'} base damage. Hold up to 12 charges {'{'}+12{'}'} that reload after 2 seconds {'{'}+2{'}'}."
+      "name": "异端幻象",
+      "description": "#[misc:Replace your Primary Skill] with #[misc:Hungering Gaze].\nFire a flurry of #[misc:tracking shards] that detonate after a delay, dealing #[offense:120%] base damage. Hold up to 12 charges #[+12] that reload after 2 seconds #[+2]."
     },
     "missinguid_hookOfHeresy": {
-      "name": "Hook of Heresy",
-      "description": "{'{'}misc:Replace your Secondary Skill{'}'} with {'{'}misc:Slicing Maelstrom{'}'}.\nCharge up a projectile that deals {'{'}offense:175% damage per second{'}'} to nearby enemies, exploding after {'{'}misc:3{'}'} seconds to deal {'{'}offense:700% damage{'}'} and {'{'}offense:root{'}'} enemies for {'{'}misc:3{'}'} {'{'}+3{'}'} seconds. Recharges after 5 {'{'}+5{'}'} seconds.",
+      "name": "异端之钩",
+      "description": "#[misc:Replace your Secondary Skill] with #[misc:Slicing Maelstrom].\nCharge up a projectile that deals #[offense:175% damage per second] to nearby enemies, exploding after #[misc:3] seconds to deal #[offense:700% damage] and #[offense:root] enemies for #[misc:3] #[+3] seconds. Recharges after 5 #[+5] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "missinguid_essenceOfHeresy": {
-      "name": "Essence of Heresy",
-      "description": "{'{'}misc:Replace your Special Skill{'}'} with {'{'}misc:Ruin{'}'}.\nDealing damage adds a stack of {'{'}offense:Ruin{'}'} for 10 {'{'}+10{'}'} seconds. Activating the skill {'{'}offense:detonates{'}'} all Ruin stack at unlimited range, dealing {'{'}offense:300% damage{'}'} plus {'{'}offense:120% damage per stack of Ruin{'}'}.\nRecharges after 8 {'{'}+8{'}'} seconds.",
+      "name": "异端精华",
+      "description": "#[misc:Replace your Special Skill] with #[misc:Ruin].\nDealing damage adds a stack of #[offense:Ruin] for 10 #[+10] seconds. Activating the skill #[offense:detonates] all Ruin stack at unlimited range, dealing #[offense:300% damage] plus #[offense:120% damage per stack of Ruin].\nRecharges after 8 #[+8] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "LunarTrinket": {
-      "name": "Beads of Fealty",
-      "description": "Seems to do nothing... {'{'}debuff:but...{'}'}",
+      "name": "忠诚之珠",
+      "description": "Seems to do nothing... #[debuff:but...]",
       "unlock": "Unlock the new zone from the \"Hidden Realms\" update when you obliterate with this item."
     },
     "LunarUtilityReplacement": {
-      "name": "Strides of Heresy",
-      "description": "{'{'}misc:Replace your Utility Skill{'}'} with {'{'}misc:Shadowfade{'}'}.\nFade away, becoming {'{'}misc:intangible{'}'} and gaining {'{'}misc:+30% movement speed{'}'}. {'{'}defense:Heal{'}'} for {'{'}defense:25%{'}'} {'{'}+25%{'}'} {'{'}defense:of your maximum health{'}'}. Lasts 3 {'{'}+3{'}'} seconds.",
+      "name": "异端跨越",
+      "description": "#[misc:Replace your Utility Skill] with #[misc:Shadowfade].\nFade away, becoming #[misc:intangible] and gaining #[misc:+30% movement speed]. #[defense:Heal] for #[defense:25%] #[+25%] #[defense:of your maximum health]. Lasts 3 #[+3] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "missinguid_defiantGouge": {
-      "name": "Defiant Gouge",
-      "description": "Using a Shrine summons {'{'}debuff:enemies{'}'} nearby. {'{'}misc:Scales over time{'}'}."
+      "name": "抗争之穴",
+      "description": "Using a Shrine summons #[debuff:enemies] nearby. #[misc:Scales over time]."
     },
     "missinguid_mercurialRachis": {
-      "name": "Mercurial Rachis",
-      "description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within {'{'}misc:16m{'}'} {'{'}+50%{'}'}, causing them to deal {'{'}offense:+50%{'}'} damage."
+      "name": "变化叶脊",
+      "description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within #[misc:16m] #[+50%], causing them to deal #[offense:+50%] damage."
     },
     "RepeatHeal": {
-      "name": "Corpsebloom",
-      "description": "{'{'}defense:Heal +100%{'}'} {'{'}+100%{'}'} more.\n{'{'}defense:All healing is applied over time{'}'}.\nCan {'{'}defense:heal{'}'} for a {'{'}defense:maximum{'}'} of {'{'}defense:10%{'}'} {'{'}-50%{'}'} of your {'{'}defense:health per second{'}'}."
+      "name": "尸爆",
+      "description": "#[defense:Heal +100%] #[+100%] more.\n#[defense:All healing is applied over time].\nCan #[defense:heal] for a #[defense:maximum] of #[defense:10%] #[-50%] of your #[defense:health per second]."
     },
     "ShieldOnly": {
-      "name": "Transcendence",
-      "description": "{'{'}defense:Convert{'}'} all but {'{'}defense:1 health{'}'} into {'{'}defense:regenerating shields{'}'}.\n{'{'}defense:Gain 50%{'}'} {'{'}+25%{'}'} {'{'}defense:maximum health{'}'}."
+      "name": "超绝",
+      "description": "#[defense:Convert] all but #[defense:1 health] into #[defense:regenerating shields].\n#[defense:Gain 50%] #[+25%] #[defense:maximum health]."
     },
     "BurnNearby": {
-      "name": "Helfire Tincture",
-      "description": "Ignite ALL characters within 8m. Deal {'{'}offense:5% of your maximum health/second as burning{'}'} to yourself.\nThe burn is {'{'}offense:0.5x{'}'} stronger on allies, and {'{'}offense:24x{'}'} stronger on enemies.\nCooldown: {'{'}misc:45s{'}'}",
+      "name": "地狱火酊剂",
+      "description": "Ignite ALL characters within 8m. Deal #[offense:5% of your maximum health/second as burning] to yourself.\nThe burn is #[offense:0.5x] stronger on allies, and #[offense:24x] stronger on enemies.\nCooldown: #[misc:45s]",
       "unlock": "Kill 15 enemies simultaneously."
     },
     "CrippleWard": {
-      "name": "Effigy of Grief",
-      "description": "ALL characters are {'{'}misc:slowed by 50%{'}'} and has their {'{'}offense:armor reduced by 20{'}'}.\nCan place up to {'{'}misc:5{'}'}.\nCooldown: {'{'}misc:15s{'}'}"
+      "name": "悲伤雕像",
+      "description": "ALL characters are #[misc:slowed by 50%] and has their #[offense:armor reduced by 20].\nCan place up to #[misc:5].\nCooldown: #[misc:15s]"
     },
     "Meteor": {
-      "name": "Glowing Meteorite",
-      "description": "{'{'}offense:Rain meteors{'}'} from the sky, damaging ALL characters for {'{'}offense:600% damage per blast{'}'}.\nLast 20 seconds.",
+      "name": "发光的陨石",
+      "description": "#[offense:Rain meteors] from the sky, damaging ALL characters for #[offense:600% damage per blast].\nLast 20 seconds.",
       "unlock": "Carry 5 Lunar items in a single run."
     },
     "Tonic": {
-      "name": "Spinel Affliction",
-      "description": "Drink the Tonic, gaining a boost for 15 seconds.\nIncreases {'{'}offense:damage{'}'} by {'{'}offense:+100%{'}'}.\nIncreases {'{'}offense:attack speed{'}'} by {'{'}offense:+70%{'}'}.\nIncreases {'{'}offense:armor{'}'} by {'{'}offense:+20{'}'}.\nIncreases {'{'}defense:maximum health{'}'} by {'{'}defense:+50%{'}'}.\nIncreases {'{'}defense:passive health regeneration{'}'} by {'{'}defense:+300%{'}'}.\nIncreases {'{'}misc:movespeed{'}'} by {'{'}misc:+30%{'}'}.\nWhen the tonic wears off, you have {'{'}debuff:20%{'}'} chance to gain a {'{'}debuff:Tonic Affliction, reducing all of your stats{'}'} by {'{'}debuff:-5%{'}'} {'{'}-5%{'}'}",
+      "name": "尖晶强心剂",
+      "description": "Drink the Tonic, gaining a boost for 15 seconds.\nIncreases #[offense:damage] by #[offense:+100%].\nIncreases #[offense:attack speed] by #[offense:+70%].\nIncreases #[offense:armor] by #[offense:+20].\nIncreases #[defense:maximum health] by #[defense:+50%].\nIncreases #[defense:passive health regeneration] by #[defense:+300%].\nIncreases #[misc:movespeed] by #[misc:+30%].\nWhen the tonic wears off, you have #[debuff:20%] chance to gain a #[debuff:Tonic Affliction, reducing all of your stats] by #[debuff:-5%] #[-5%]",
       "unlock": "Discover and enter three unique portals."
     },
     "BFG": {
-      "name": "Preon Accumulator",
-      "description": "Fires preon tendrils, zapping enemies within 35m up to {'{'}offense:600% damage/second{'}'}.\nOn contact, detonate in an enormous 20m explosion for {'{'}offense:4000% damage{'}'}.\nCooldown: {'{'}misc:140s{'}'}",
+      "name": "前子蓄能器",
+      "description": "Fires preon tendrils, zapping enemies within 35m up to #[offense:600% damage/second].\nOn contact, detonate in an enormous 20m explosion for #[offense:4000% damage].\nCooldown: #[misc:140s]",
       "unlock": "Open the Timed Security Chest on Rallypoint Delta."
     },
     "Blackhole": {
-      "name": "Blackhole",
-      "description": "Fire a black hole that {'{'}misc:draws enemies within 30m into it's center{'}'}. Last 10 seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "name": "原始立方体",
+      "description": "Fire a black hole that #[misc:draws enemies within 30m into it's center]. Last 10 seconds.\nCooldown: #[misc:60s]"
     },
     "Cleanse": {
-      "name": "Blast Shower",
-      "description": "{'{'}misc:Cleanse{'}'} all negative effects. Includes debuffs, damage over time, and nearby projectiles.\nCooldown: {'{'}misc:20s{'}'}",
+      "name": "爆破雨阵",
+      "description": "#[misc:Cleanse] all negative effects. Includes debuffs, damage over time, and nearby projectiles.\nCooldown: #[misc:20s]",
       "unlock": "Die three fiery deaths."
     },
     "CommandMissile": {
-      "name": "Disposable Missile Launcher",
-      "description": "Fire a swarm of {'{'}offense:12{'}'} missiles that deal {'{'}offense:12x300%{'}'} damage.\nCooldown: {'{'}misc:45s{'}'}"
+      "name": "一次性导弹发射器",
+      "description": "Fire a swarm of #[offense:12] missiles that deal #[offense:12x300%] damage.\nCooldown: #[misc:45s]"
     },
     "CritOnUse": {
-      "name": "Ocular HUD",
-      "description": "Gain {'{'}offense:+100% Critical Strike Chance{'}'} for 8 seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "name": "眼部平视显示",
+      "description": "Gain #[offense:+100% Critical Strike Chance] for 8 seconds.\nCooldown: #[misc:60s]"
     },
     "missinguid_forgiveMePlease": {
-      "name": "Forgive Me Please",
-      "description": "Throw a cursed doll out that {'{'}offense:triggers{'}'} any {'{'}offense:On-kill{'}'} effects you have every {'{'}misc:1{'}'} second for {'{'}misc:8{'}'} seconds.\nCooldown: {'{'}misc:45{'}'}",
+      "name": "请原谅我",
+      "description": "Throw a cursed doll out that #[offense:triggers] any #[offense:On-kill] effects you have every #[misc:1] second for #[misc:8] seconds.\nCooldown: #[misc:45]",
       "unlock": "Die 20 times."
     },
     "DroneBackup": {
-      "name": "The Back-up",
-      "description": "Call {'{'}offense:4 Strike Drones{'}'} to fight for you.\nLast 25 seconds.\nCooldown: {'{'}misc:100s{'}'}",
+      "name": "对讲机",
+      "description": "Call #[offense:4 Strike Drones] to fight for you.\nLast 25 seconds.\nCooldown: #[misc:100s]",
       "unlock": "Repair 30 drones or turrets."
     },
     "FireBallDash": {
-      "name": "Volcania Egg",
-      "description": "Turn into a {'{'}offense:draconic fireball{'}'} for {'{'}offense:5{'}'} seconds. Deal {'{'}offense:500% damage{'}'} on impact.\nDetonates at the end for {'{'}offense:800% damage{'}'}.\nCooldown: {'{'}misc:30s{'}'}"
+      "name": "火山之卵",
+      "description": "Turn into a #[offense:draconic fireball] for #[offense:5] seconds. Deal #[offense:500% damage] on impact.\nDetonates at the end for #[offense:800% damage].\nCooldown: #[misc:30s]"
     },
     "Fruit": {
-      "name": "Foreign Fruit",
-      "description": "Instantly heal for {'{'}defense:50% of your maximum health{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "name": "外来水果",
+      "description": "Instantly heal for #[defense:50% of your maximum health].\nCooldown: #[misc:45s]"
     },
     "GainArmor": {
-      "name": "Jade Elephant",
-      "description": "Gain {'{'}offense:500 armor{'}'} for {'{'}misc:5 seconds{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "name": "玉象",
+      "description": "Gain #[offense:500 armor] for #[misc:5 seconds].\nCooldown: #[misc:45s]"
     },
     "Gateway": {
-      "name": "Eccentric Vase",
-      "description": "Create a {'{'}misc:quantum tunnel{'}'} of up to {'{'}misc:1000m{'}'} in length. Lasts 30 seconds.\nCooldown: {'{'}misc:45s{'}'}",
+      "name": "古怪花瓶",
+      "description": "Create a #[misc:quantum tunnel] of up to #[misc:1000m] in length. Lasts 30 seconds.\nCooldown: #[misc:45s]",
       "unlock": "Defeat the guardian of Gilded Coast without any beacons deactivating."
     },
     "GoldGat": {
-      "name": "The Crowdfunder",
-      "description": "Fires a continuous barrage that deals {'{'}offense:100% damage per bullet{'}'}.\nCosts {'$'}1 per bullet. Costs increases over time.\nCooldown: {'{'}misc:5s{'}'}",
+      "name": "集资的力量",
+      "description": "Fires a continuous barrage that deals #[offense:100% damage per bullet].\nCosts {'$'}1 per bullet. Costs increases over time.\nCooldown: #[misc:5s]",
       "unlock": "Collect {'$'}30,480 total gold."
     },
     "Jetpack": {
-      "name": "Milky Chrisalis",
-      "description": "Sprout wings and {'{'}misc:fly for 15 seconds{'}'}.\nGain {'{'}misc:+20% movement speed{'}'} for the duration.\nCooldown: {'{'}misc:60s{'}'}"
+      "name": "乳白色的茧",
+      "description": "Sprout wings and #[misc:fly for 15 seconds].\nGain #[misc:+20% movement speed] for the duration.\nCooldown: #[misc:60s]"
     },
     "missinguid_superMassiveLeech": {
-      "name": "Super Massive Leech",
-      "description": "{'{'}defense:Heal{'}'} for {'{'}defense:20%{'}'} of the {'{'}offense:damage{'}'} you deal. Lasts {'{'}defense:8{'}'} seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "name": "超巨型水蛭",
+      "description": "#[defense:Heal] for #[defense:20%] of the #[offense:damage] you deal. Lasts #[defense:8] seconds.\nCooldown: #[misc:60s]"
     },
     "Lightning": {
-      "name": "Royal Capacitor",
-      "description": "Call down a lightning strike on a targeted monster, dealing {'{'}offense:3000% damage{'}'} and {'{'}offense:stunning{'}'} nearby monsters.\nCooldown: {'{'}misc:20s{'}'}",
+      "name": "皇家电容器",
+      "description": "Call down a lightning strike on a targeted monster, dealing #[offense:3000% damage] and #[offense:stunning] nearby monsters.\nCooldown: #[misc:20s]",
       "unlock": "Defeat the Teleporter bosses after activating 2 Shrines of the Moutain."
     },
     "PassiveHealing": {
-      "name": "Gnarled Woodsprite",
-      "description": "Gain a Woodsprite follower that heals for {'{'}defense:1.5% of your maximum health/second{'}'}.\nCan be sent to an ally to heal them for {'{'}defense:10% of their maximum health{'}'}.\nCooldown: {'{'}misc:15s{'}'}",
+      "name": "身形扭曲的木灵",
+      "description": "Gain a Woodsprite follower that heals for #[defense:1.5% of your maximum health/second].\nCan be sent to an ally to heal them for #[defense:10% of their maximum health].\nCooldown: #[misc:15s]",
       "unlock": "Fully upgrade a Shrine of the Woods."
     },
     "missinguid_recycler": {
-      "name": "Recycler",
-      "description": "{'{'}misc:Transform{'}'} an Item or Equipment into a different one. {'{'}misc:Can only be converted in the same tier one time{'}'}.\nCooldown: {'{'}misc:45s{'}'}",
+      "name": "回收机",
+      "description": "#[misc:Transform] an Item or Equipment into a different one. #[misc:Can only be converted in the same tier one time].\nCooldown: #[misc:45s]",
       "unlock": "Destroy  20 flying rocks in Sky Meadow."
     },
     "missinguid_sawmerang": {
-      "name": "Sawmerang",
-      "description": "Throw {'{'}offense:three large saw blades{'}'} that slice through enemies for {'{'}offense:3x400%{'}'} damage.\nAlso deals an additional {'{'}offense:3x100% damage per second{'}'} while {'{'}offense:bleeding{'}'} enemies.\nCan {'{'}offense:strike{'}'} enemies again on the way back.\nCooldown: {'{'}misc:45s{'}'}"
+      "name": "回旋锯",
+      "description": "Throw #[offense:three large saw blades] that slice through enemies for #[offense:3x400%] damage.\nAlso deals an additional #[offense:3x100% damage per second] while #[offense:bleeding] enemies.\nCan #[offense:strike] enemies again on the way back.\nCooldown: #[misc:45s]"
     },
     "Scanner": {
-      "name": "Radar Scanner",
-      "description": "{'{'}misc:Reveal{'}'} all interactables within 500m for {'{'}misc:10 seconds{'}'}.\nCooldown: {'{'}misc:45s{'}'}",
+      "name": "雷达扫描装置",
+      "description": "#[misc:Reveal] all interactables within 500m for #[misc:10 seconds].\nCooldown: #[misc:45s]",
       "unlock": "Collect 10 Monster or Environment Logs."
     },
     "missinguid_goragsOpus": {
-      "name": "Gorag's Opus",
-      "description": "All allies enter a {'{'}offense:frenzy{'}'} for {'{'}misc:7{'}'} seconds. Increases {'{'}misc:movement speed{'}'} by {'{'}misc:50%{'}'} and {'{'}offense:attack speed{'}'} by {'{'}offense:100%{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "name": "古拉格的杰作",
+      "description": "All allies enter a #[offense:frenzy] for #[misc:7] seconds. Increases #[misc:movement speed] by #[misc:50%] and #[offense:attack speed] by #[offense:100%].\nCooldown: #[misc:45s]"
     }
   }
 }

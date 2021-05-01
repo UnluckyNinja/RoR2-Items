@@ -11,7 +11,7 @@
 					v-if="item.unlock"
 					@click.prevent="toggleModal"
 				>
-					Unlock
+					{{ t('ui.button.unlock') }}
 				</button>
 				<span v-if="item.id >= 0">#{{ item.id }}</span>
 			</div>
@@ -33,12 +33,18 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 import { Rarity } from '../definition';
 
 export default defineComponent({
 	props: {
 		item: { type: Object, required: true },
+	},
+	setup(){
+		const { t, te } = useI18n({ useScope: 'global' });
+
+		return { t, te };
 	},
 	methods: {
 		copyGive() {
@@ -92,8 +98,8 @@ export default defineComponent({
 		},
 		description(): string {
 			return this.item.description
-				.replaceAll(/{(offense|defense|debuff|misc):(.+?)}/g, `<span class="is-$1">$2</span>`)
-				.replaceAll(/{(.+?)}/g, `<span class="is-stackable">($1 per stack)</span>`);
+				.replaceAll(/#\[(offense|defense|debuff|misc):(.+?)\]/g, `<span class="is-$1">$2</span>`)
+				.replaceAll(/#\[(.+?)\]/g, `<span class="is-stackable">($1 ${this.t('perstack')})</span>`);
 		},
 	},
 });

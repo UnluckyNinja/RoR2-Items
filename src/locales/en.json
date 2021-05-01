@@ -1,75 +1,98 @@
 {
   "locale": "English",
+  "ui": {
+    "title": "Risk of Rain 2 Items & Equipments",
+    "donate": "Buy Me a Coffee at ko-fi.com",
+    "search-placeholder": "Search name, tags, rarity and description.",
+    "noitemfound": "No items found.",
+    "button": {
+      "language": "Language",
+      "all": "All",
+      "common": "Common",
+      "uncommon": "Uncommon",
+      "rare": "Rare",
+      "unique": "Unique",
+      "lunar": "Lunar",
+      "equipment": "Equipment",
+      "clear": "Clear",
+      "unlock": "Unlock"
+    },
+    "modal": {
+      "title": "How to Unlock",
+      "close": "Close"
+    }
+  },
+  "perstack": "per stack",
   "items": {
     "missinguid_repulsionArmorPlate": {
       "name": "Repulsion Armor Plate",
-      "description": "Reduce all {'{'}offense:incoming damage{'}'} by {'{'}offense:5{'}'} {'{'}+5{'}'}. Cannot be reduced below {'{'}offense:1{'}'}."
+      "description": "Reduce all #[offense:incoming damage] by #[offense:5] #[+5]. Cannot be reduced below #[offense:1]."
     },
     "BarrierOnKill": {
       "name": "Topaz Brooch",
-      "description": "Gain a {'{'}defense:temporary barrier{'}'} on kill for {'{'}defense:15 health{'}'} {'{'}+15{'}'}."
+      "description": "Gain a #[defense:temporary barrier] on kill for #[defense:15 health] #[+15]."
     },
     "Bear": {
       "name": "Tougher Times",
-      "description": "{'{'}defense:15%{'}'} {'{'}+15%{'}'} chance to {'{'}defense:block{'}'} incoming damage.\n{'{'}misc:Unaffected by the luck{'}'}.",
+      "description": "#[defense:15%] #[+15%] chance to #[defense:block] incoming damage.\n#[misc:Unaffected by the luck].",
       "unlock": "Die 5 times."
     },
     "BleedOnHit": {
       "name": "Trip-Tip Dagger",
-      "description": "{'{'}offense:10%{'}'} {'{'}+10%{'}'} chance to {'{'}offense:bleed{'}'} an enemy for {'{'}offense:240%{'}'} base damage."
+      "description": "#[offense:10%] #[+10%] chance to #[offense:bleed] an enemy for #[offense:240%] base damage."
     },
     "BossDamageBonus": {
       "name": "Armor-Piercing Rounds",
-      "description": "Deal an additional {'{'}offense:20%{'}'} damage {'{'}+20%{'}'} to bosses.",
+      "description": "Deal an additional #[offense:20%] damage #[+20%] to bosses.",
       "unlock": "Complete a Teleporter event."
     },
     "CritGlasses": {
       "name": "Lens-Maker's Glasses",
-      "description": "Your attacks have a {'{'}offense:10%{'}'} {'{'}+10%{'}'} chance to \"{'{'}offense:Critically Strike{'}'}\", dealing {'{'}offense:double damage{'}'}."
+      "description": "Your attacks have a #[offense:10%] #[+10%] chance to \"#[offense:Critically Strike]\", dealing #[offense:double damage]."
     },
     "Crowbar": {
       "name": "Crowbar",
-      "description": "Deal {'{'}offense:75%{'}'} {'{'}+75%{'}'} damage to enemies above {'{'}offense:90% health{'}'}.",
+      "description": "Deal #[offense:75%] #[+75%] damage to enemies above #[offense:90% health].",
       "unlock": "Discover 10 unique white items."
     },
     "Firework": {
       "name": "Bundle of Fireworks",
-      "description": "Opening a chest {'{'}offense:launches 8{'}'} {'{'}+4{'}'} {'{'}offense:fireworks{'}'} that deal {'{'}offense:300%{'}'} base damage.",
+      "description": "Opening a chest #[offense:launches 8] #[+4] #[offense:fireworks] that deal #[offense:300%] base damage.",
       "unlock": "Duplicate the same item 7 times in a row with a 3D printer."
     },
     "RegeOnKill": {
       "name": "Fresh Meat",
-      "description": "Increases {'{'}defense:maximum health{'}'} by {'{'}defense:25{'}'} {'{'}+25{'}'}."
+      "description": "Increases #[defense:maximum health] by #[defense:25] #[+25]."
     },
     "HealWhileSafe": {
       "name": "Cautious Slug",
-      "description": "Increases {'{'}defense:base health regeneration{'}'} by {'{'}defense:+3 hp/s{'}'} {'{'}+3 hp/s{'}'} while outside of combat."
+      "description": "Increases #[defense:base health regeneration] by #[defense:+3 hp/s] #[+3 hp/s] while outside of combat."
     },
     "Hoof": {
       "name": "Paul's Goat Hoof",
-      "description": "Increases {'{'}misc:movement speed{'}'} by {'{'}misc:14%{'}'} {'{'}+14%{'}'}.",
+      "description": "Increases #[misc:movement speed] by #[misc:14%] #[+14%].",
       "unlock": "Fail the Shrine of chance 3 times in a row."
     },
     "IgniteOnKill": {
       "name": "Gasoline",
-      "description": "Killing an enemy {'{'}offense:ignites{'}'} all enemies within {'{'}offense:12m{'}'} {'{'}+4{'}'}.\nEnnemies {'{'}offense:burn{'}'} for {'{'}offense:150%{'}'} {'{'}+75%{'}'} base damage."
+      "description": "Killing an enemy #[offense:ignites] all enemies within #[offense:12m] #[+4m].\nEnemies #[offense:burn] for #[offense:150%] #[+75%] base damage."
     },
     "Medkit": {
       "name": "Medkit",
-      "description": "2 seconds after getting hurt, {'{'}defense:heal{'}'} for {'{'}defense:20{'}'} plus an additional {'{'}defense:5%{'}'} {'{'}+5%{'}'} of {'{'}defense:maximum health{'}'}.",
+      "description": "2 seconds after getting hurt, #[defense:heal] for #[defense:20] plus an additional #[defense:5%] #[+5%] of #[defense:maximum health].",
       "unlock": "Defeat an Elite-type monster."
     },
     "Mushroom": {
       "name": "Bustling Fungus",
-      "description": "After standing still for {'{'}defense:2{'}'} seconds create a zone that {'{'}defense:heals{'}'} for {'{'}defense:4.5%{'}'} {'{'}+2.25%{'}'} of your {'{'}defense:health{'}'} every second to all allies within {'{'}defense:3m{'}'} {'{'}+1.5m{'}'}."
+      "description": "After standing still for #[defense:2] seconds create a zone that #[defense:heals] for #[defense:4.5%] #[+2.25%] of your #[defense:health] every second to all allies within #[defense:3m] #[+1.5m]."
     },
     "NearbyDamageBonus": {
       "name": "Focus Crystal",
-      "description": "Increase damage to enemies withing {'{'}offense:13m{'}'} by {'{'}offense:20%{'}'} {'{'}+20%{'}'}."
+      "description": "Increase damage to enemies withing #[offense:13m] by #[offense:20%] #[+20%]."
     },
     "PersonalShield": {
       "name": "Personal Shield Generator",
-      "description": "Gain a {'{'}defense:shield{'}'} equal to {'{'}defense:8%{'}'} {'{'}+8%{'}'} of your maximum healt. Recharges outside of danger."
+      "description": "Gain a #[defense:shield] equal to #[defense:8%] #[+8%] of your maximum healt. Recharges outside of danger."
     },
     "missinguid_itemScrapWhite": {
       "name": "Item Scrap, White",
@@ -77,114 +100,114 @@
     },
     "SecondarySkillMagazine": {
       "name": "Backup Magazine",
-      "description": "Add {'{'}misc:+1{'}'} {'{'}+1{'}'} charge of your {'{'}misc:Secondary skill{'}'}.",
+      "description": "Add #[misc:+1] #[+1] charge of your #[misc:Secondary skill].",
       "unlock": "Fully charge a Teleporter without getting hit."
     },
     "SprintBonus": {
       "name": "Energy Drink",
-      "description": "{'{'}misc:Sprint speed{'}'} is improved by {'{'}misc:25%{'}'} {'{'}+25%{'}'}."
+      "description": "#[misc:Sprint speed] is improved by #[misc:25%] #[+25%]."
     },
     "StickyBomb": {
       "name": "Sticky Bomb",
-      "description": "{'{'}offense:5%{'}'} {'{'}+5%{'}'} chance on hit to attach a {'{'}offense:bomb{'}'} to an enemy, detonating for {'{'}offense:180%{'}'} TOTAL damage."
+      "description": "#[offense:5%] #[+5%] chance on hit to attach a #[offense:bomb] to an enemy, detonating for #[offense:180%] TOTAL damage."
     },
     "StunChanceOnHit": {
       "name": "Stun Grenade",
-      "description": "{'{'}misc:5%{'}'} {'{'}+5%{'}'} chance on hit to {'{'}misc:stun{'}'} enemies for {'{'}misc:2{'}'} seconds."
+      "description": "#[misc:5%] #[+5%] chance on hit to #[misc:stun] enemies for #[misc:2] seconds."
     },
     "Syringe": {
       "name": "Soldier's Syringe",
-      "description": "Increase {'{'}offense:Attack Speed{'}'} by {'{'}offense:15%{'}'} {'{'}+15%{'}'}."
+      "description": "Increase #[offense:Attack Speed] by #[offense:15%] #[+15%]."
     },
     "Tooth": {
       "name": "Monster Tooth",
-      "description": "Killing an ennemy spawns a {'{'}defense:healing orb{'}'} that heals for {'{'}defense:8{'}'} plus an additional {'{'}defense:2%{'}'} {'{'}+2%{'}'} of {'{'}defense:maximum health{'}'}."
+      "description": "Killing an ennemy spawns a #[defense:healing orb] that heals for #[defense:8] plus an additional #[defense:2%] #[+2%] of #[defense:maximum health]."
     },
     "TreasureCache": {
       "name": "Rusted Key",
-      "description": "A {'{'}misc:hidden cache{'}'} containing an item ({'{'}defense:80%{'}'}/{'{'}debuff:20%{'}'}) will appear in a random location {'{'}misc:on each stage{'}'}.\nOpening the cache {'{'}consumes{'}'} this item.",
+      "description": "A #[misc:hidden cache] containing an item (#[defense:80%]/#[debuff:20%]) will appear in a random location #[misc:on each stage].\nOpening the cache #[consumes] this item.",
       "unlock": "Defeat the Teleporter boss under 15 seconds."
     },
     "LevelBonus": {
       "name": "Warbanner",
-      "description": "On {'{'}misc:level up{'}'} or starting the {'{'}misc:Teleporter event{'}'}, drop a banner that strengthens all allies within {'{'}misc:16m{'}'} {'{'}+8m{'}'}.\nRaise {'{'}offense:attack{'}'} and {'{'}misc:movement speed{'}'} by {'{'}offense:30%{'}'}."
+      "description": "On #[misc:level up] or starting the #[misc:Teleporter event], drop a banner that strengthens all allies within #[misc:16m] #[+8m].\nRaise #[offense:attack] and #[misc:movement speed] by #[offense:30%]."
     },
     "AttackSpeedOnCrit": {
       "name": "Predatory Instincts",
-      "description": "{'{'}offense:Critical Strikes{'}'} increase {'{'}offense:attack speed{'}'} by {'{'}offense:12%{'}'}.\nMaximum cap of {'{'}offense:36%{'}'} {'{'}+24%{'}'} {'{'}offense:attack speed{'}'}.",
+      "description": "#[offense:Critical Strikes] increase #[offense:attack speed] by #[offense:12%].\nMaximum cap of #[offense:36%] #[+24%] #[offense:attack speed].",
       "unlock": "Reach +200% attack speed."
     },
     "Bandolier": {
       "name": "Bandolier",
-      "description": "{'{'}misc:18%{'}'} {'{'}+10%{'}'} chance on kill to drop an ammo pack that {'{'}misc:resets all cooldowns{'}'}."
+      "description": "#[misc:18%] #[+10%] chance on kill to drop an ammo pack that #[misc:resets all cooldowns]."
     },
     "BonusGoldPackOnKill": {
       "name": "Ghor's Tome",
-      "description": "{'{'}misc:4%{'}'} {'{'}+4%{'}'} chance on kill to drop a treasure worth {'{'}misc:25{'$'}{'}'}. {'{'}misc:Scales over time.{'}'}"
+      "description": "#[misc:4%] #[+4%] chance on kill to drop a treasure worth #[misc:25{'$'}]. #[misc:Scales over time.]"
     },
     "ChainLightning": {
       "name": "Ukulele",
-      "description": "{'{'}offense:25%{'}'} chance to fire a {'{'}offense:chain lightning{'}'} for {'{'}offense:80%{'}'} TOTAL damage up to {'{'}offense:3{'}'} {'{'}+2{'}'} targets within {'{'}offense:20m{'}'} {'{'}+2m{'}'}."
+      "description": "#[offense:25%] chance to fire a #[offense:chain lightning] for #[offense:80%] TOTAL damage up to #[offense:3] #[+2] targets within #[offense:20m] #[+2m]."
     },
     "missinguid_deathMark": {
       "name": "Death Mark",
-      "description": "Enemies with {'{'}offense:4{'}'} or more debuffs are {'{'}offense:marked for death{'}'}, increasing damage taken by {'{'}offense:50%{'}'} from all sources for {'{'}misc:7{'}'} {'{'}+7{'}'} seconds."
+      "description": "Enemies with #[offense:4] or more debuffs are #[offense:marked for death], increasing damage taken by #[offense:50%] from all sources for #[misc:7] #[+7] seconds."
     },
     "EnergizedOnEquipmentUse": {
       "name": "War Horn",
-      "description": "Activating your Equipment gives you {'{'}offense:+70% attack speed{'}'} for {'{'}offense:8s{'}'} {'{'}+4s{'}'}.",
+      "description": "Activating your Equipment gives you #[offense:+70% attack speed] for #[offense:8s] #[+4s].",
       "unlock": "Complete 3 Combat Shrines in a single stage."
     },
     "EquipmentMagazine": {
       "name": "Fuel Cell",
-      "description": "Hold an {'{'}misc:additional equipment charge{'}'} {'{'}+1{'}'}.\n{'{'}misc:Reduce equipment cooldown{'}'} by {'{'}misc:15%{'}'} {'{'}+15%{'}'}.",
+      "description": "Hold an #[misc:additional equipment charge] #[+1].\n#[misc:Reduce equipment cooldown] by #[misc:15%] #[+15%].",
       "unlock": "Pickup 5 different types of Equipment."
     },
     "ExecuteLowHealthElite": {
       "name": "Old Guillotine",
-      "description": "Instantly kill Elite Monsters below {'{'}debuff:13%{'}'} {'{'}+13%{'}'} {'{'}debuff:health{'}'}.",
+      "description": "Instantly kill Elite Monsters below #[debuff:13%] #[+13%] #[debuff:health].",
       "unlock": "Defeat 500 Elite Monsters."
     },
     "ExplodeOnDeath": {
       "name": "Will-O'-the-wisp",
-      "description": "On killing an enemy, spawn a {'{'}offense:lava pillar{'}'} in a {'{'}offense:12m{'}'} {'{'}+2.4m{'}'} radius for {'{'}offense:350%{'}'} {'{'}+280%{'}'} base damage."
+      "description": "On killing an enemy, spawn a #[offense:lava pillar] in a #[offense:12m] #[+2.4m] radius for #[offense:350%] #[+280%] base damage."
     },
     "Feather": {
       "name": "Hopoo Feather",
-      "description": "Gain {'{'}misc:+1{'}'} {'{'}+1{'}'} maximum {'{'}misc:jump count{'}'}."
+      "description": "Gain #[misc:+1] #[+1] maximum #[misc:jump count]."
     },
     "FireRing": {
       "name": "Kjaro's Band",
-      "description": "Hits that deals {'{'}offense:more than 400% damage{'}'} also blasts enemies with a {'{'}offense:runic flame tornado{'}'}, dealing {'{'}offense:300%{'}'} {'{'}+300%{'}'} TOTAL damage over time. Recharge every {'{'}misc:10{'}'} seconds.",
+      "description": "Hits that deals #[offense:more than 400% damage] also blasts enemies with a #[offense:runic flame tornado], dealing #[offense:300%] #[+300%] TOTAL damage over time. Recharge every #[misc:10] seconds.",
       "unlock": "Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "HealOnCrit": {
       "name": "Harvester's Scythe",
-      "description": "Gain {'{'}offense:5% critical chance{'}'}.\n{'{'}offense:Critical strikes{'}'} {'{'}defense:heal{'}'} for {'{'}defense:8{'}'} {'{'}+4{'}'} {'{'}defense:health{'}'}.",
+      "description": "Gain #[offense:5% critical chance].\n#[offense:Critical strikes] #[defense:heal] for #[defense:8] #[+4] #[defense:health].",
       "unlock": "Complete a Prismatic Trial."
     },
     "IceRing": {
       "name": "Runald's Band",
-      "description": "Hits that deals {'{'}offense:more than 400% damage{'}'} also blasts enemies with a {'{'}offense:runic ice blast{'}'}, {'{'}misc:slowing{'}'} them by {'{'}misc:80%{'}'} for {'{'}misc:3s{'}'} {'{'}+3s{'}'} and dealing {'{'}offense:250%{'}'} {'{'}+250%{'}'} TOTAL damage. Recharge every {'{'}misc:10{'}'} seconds.",
+      "description": "Hits that deals #[offense:more than 400% damage] also blasts enemies with a #[offense:runic ice blast], #[misc:slowing] them by #[misc:80%] for #[misc:3s] #[+3s] and dealing #[offense:250%] #[+250%] TOTAL damage. Recharge every #[misc:10] seconds.",
       "unlock": "Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "Infusion": {
       "name": "Infusion",
-      "description": "Killing an enemy increases your {'{'}defense:health permanently{'}'} by {'{'}defense:1{'}'}, up to a {'{'}defense:maximum{'}'} of {'{'}defense:100{'}'} {'{'}+100{'}'} {'{'}defense:health{'}'}.",
+      "description": "Killing an enemy increases your #[defense:health permanently] by #[defense:1], up to a #[defense:maximum] of #[defense:100] #[+100] #[defense:health].",
       "unlock": "Defeat 3000 enemies."
     },
     "JumpBoost": {
       "name": "Wax Quail",
-      "description": "{'{'}defense:Jumping{'}'} while {'{'}defense:sprinting{'}'} boosts you forward by {'{'}defense:10m{'}'} {'{'}+10m{'}'}.",
+      "description": "#[defense:Jumping] while #[defense:sprinting] boosts you forward by #[defense:10m] #[+10m].",
       "unlock": "Reach +300% movespeed (include sprinting)."
     },
     "Missile": {
       "name": "AtG Missile Mk. 1",
-      "description": "{'{'}offense:10%{'}'} chance to fire a missile that deals {'{'}offense:300%{'}'} {'{'}+300%{'}'} TOTAL damage."
+      "description": "#[offense:10%] chance to fire a missile that deals #[offense:300%] #[+300%] TOTAL damage."
     },
     "Phasing": {
       "name": "Old War Stealthkit",
-      "description": "Falling below {'{'}debuff:25% health{'}'} causes you to gain {'{'}misc:40% movement speed{'}'} and {'{'}misc:invisibility{'}'} for {'{'}misc:5s{'}'}.\nRecharges every {'{'}misc:30 seconds{'}'} {'{'}-50%{'}'}."
+      "description": "Falling below #[debuff:25% health] causes you to gain #[misc:40% movement speed] and #[misc:invisibility] for #[misc:5s].\nRecharges every #[misc:30 seconds] #[-50%]."
     },
     "missinguid_itemScrapGreen": {
       "name": "Item Scrap, Green",
@@ -192,115 +215,115 @@
     },
     "Seed": {
       "name": "Leeching Seed",
-      "description": "Dealing damage {'{'}defense:heals{'}'} you for {'{'}defense:1{'}'} {'{'}+1{'}'} {'{'}defense:health{'}'}."
+      "description": "Dealing damage #[defense:heals] you for #[defense:1] #[+1] #[defense:health]."
     },
     "SlowOnHit": {
       "name": "Chronobauble",
-      "description": "{'{'}misc:Slow{'}'} enemies for {'{'}misc:-60% movement speed{'}'} for {'{'}misc:2s{'}'} {'{'}+2s{'}'}."
+      "description": "#[misc:Slow] enemies for #[misc:-60% movement speed] for #[misc:2s] #[+2s]."
     },
     "SprintArmor": {
       "name": "Rose Buckler",
-      "description": "{'{'}defense:Increase armor{'}'} by {'{'}defense:30{'}'} {'{'}+30{'}'} while {'{'}misc:sprinting{'}'}."
+      "description": "#[defense:Increase armor] by #[defense:30] #[+30] while #[misc:sprinting]."
     },
     "SprintOutOfCombat": {
       "name": "Red Whip",
-      "description": "Leaving combat boosts {'{'}misc:movement speed{'}'} by {'{'}misc:30%{'}'} {'{'}+30%{'}'}."
+      "description": "Leaving combat boosts #[misc:movement speed] by #[misc:30%] #[+30%]."
     },
     "missinguid_squidPolyp": {
       "name": "Squid Polyp",
-      "description": "Activating an interactable summons a {'{'}offense:Squid Turret{'}'} that attacks nearby enemies at {'{'}offense:100%{'}'} {'{'}+100%{'}'} {'{'}offense:attack speed{'}'}. Lasts {'{'}misc:30{'}'} seconds.",
+      "description": "Activating an interactable summons a #[offense:Squid Turret] that attacks nearby enemies at #[offense:100%] #[+100%] #[offense:attack speed]. Lasts #[misc:30] seconds.",
       "unlock": "Activate 6 turrets in a single run."
     },
     "TPHealingNova": {
       "name": "Lepton Daisy",
-      "description": "Release a {'{'}defense:healing nova{'}'} during the Teleporter event, {'{'}defense:healing{'}'} all nearby allies for {'{'}defense:50%{'}'} of their maximum health. Occurs {'{'}defense:1{'}'} {'{'}+1{'}'} times."
+      "description": "Release a #[defense:healing nova] during the Teleporter event, #[defense:healing] all nearby allies for #[defense:50%] of their maximum health. Occurs #[defense:1] #[+1] times."
     },
     "Thorns": {
       "name": "Razorwire",
-      "description": "Getting hit causes you to explode in a burst of razors, dealing {'{'}offense:160% damage{'}'}.\nHits up to {'{'}offense:5{'}'} {'{'}+2{'}'} targets in a {'{'}offense:25m{'}'} {'{'}+10m{'}'} radius."
+      "description": "Getting hit causes you to explode in a burst of razors, dealing #[offense:160% damage].\nHits up to #[offense:5] #[+2] targets in a #[offense:25m] #[+10m] radius."
     },
     "WarCryOnMultiKill": {
       "name": "Berzerker's Pauldron",
-      "description": "{'{'}offense:Killing 3 enemies{'}'} within {'{'}offense:1{'}'} second sends you into a {'{'}offense:frenzy{'}'} for {'{'}offense:6s{'}'} {'{'}+4s{'}'}.\nIncreases {'{'}misc:movement speed{'}'} by {'{'}misc:50%{'}'} and {'{'}offense:attack speed{'}'} by {'{'}offense:100%{'}'}.",
+      "description": "#[offense:Killing 3 enemies] within #[offense:1] second sends you into a #[offense:frenzy] for #[offense:6s] #[+4s].\nIncreases #[misc:movement speed] by #[misc:50%] and #[offense:attack speed] by #[offense:100%].",
       "unlock": "Charge the Teleporter with less than 10% health."
     },
     "AlienHead": {
       "name": "Alien Head",
-      "description": "{'{'}misc:Reduce skill cooldown{'}'} by {'{'}misc:25%{'}'} {'{'}+25%{'}'}."
+      "description": "#[misc:Reduce skill cooldown] by #[misc:25%] #[+25%]."
     },
     "ArmorReductionOnHit": {
       "name": "Shattering Justice",
-      "description": "After hitting an enemy {'{'}offense:5{'}'} times, reduce their {'{'}offense:armor{'}'} by {'{'}offense:60{'}'} for {'{'}offense:8{'}'} {'{'}+8{'}'} seconds."
+      "description": "After hitting an enemy #[offense:5] times, reduce their #[offense:armor] by #[offense:60] for #[offense:8] #[+8] seconds."
     },
     "BarrierOnOverHeal": {
       "name": "Aegis",
-      "description": "Healing past full grants you a {'{'}defense:temporary barrier{'}'} for up to {'{'}defense:50%{'}'} {'{'}+50%{'}'} of the amount you {'{'}defense:healed{'}'}."
+      "description": "Healing past full grants you a #[defense:temporary barrier] for up to #[defense:50%] #[+50%] of the amount you #[defense:healed]."
     },
     "Behemoth": {
       "name": "Brilliant Behemoth",
-      "description": "All your {'{'}offense:attacks explode{'}'} in a {'{'}offense:4m{'}'} {'{'}+1.5m{'}'} radius for a bonus {'{'}offense:60%{'}'} TOTAL damage to nearby enemies."
+      "description": "All your #[offense:attacks explode] in a #[offense:4m] #[+1.5m] radius for a bonus #[offense:60%] TOTAL damage to nearby enemies."
     },
     "BounceNearby": {
       "name": "Sentient Meat Hook",
-      "description": "{'{'}offense:20%{'}'} {'{'}+20%{'}'} chance on hit to {'{'}offense:fire homing hooks{'}'} at up to {'{'}offense:10{'}'} {'{'}+5{'}'} enemies for {'{'}offense:100%{'}'} TOTAL damage.",
+      "description": "#[offense:20%] #[+20%] chance on hit to #[offense:fire homing hooks] at up to #[offense:10] #[+5] enemies for #[offense:100%] TOTAL damage.",
       "unlock": "Loop back to the first stage."
     },
     "missinguid_defensiveMicrobots": {
       "name": "Defensive Microbots",
-      "description": "Shoot down {'{'}offense:1{'}'} {'{'}+1{'}'} projectiles within {'{'}offense:20m{'}'} every {'{'}offense:0.5 seconds{'}'}. {'{'}misc:Recharge rate scales with attack speed{'}'}."
+      "description": "Shoot down #[offense:1] #[+1] projectiles within #[offense:20m] every #[offense:0.5 seconds]. #[misc:Recharge rate scales with attack speed]."
     },
     "Clover": {
       "name": "57 Leaf Clover",
-      "description": "All random effects are rolled {'{'}misc:+1{'}'} {'{'}+1{'}'} {'{'}misc:times for a favorable outcome{'}'}.",
+      "description": "All random effects are rolled #[misc:+1] #[+1] #[misc:times for a favorable outcome].",
       "unlock": "Complete 20 stages in a single run."
     },
     "Dagger": {
       "name": "Ceremonial Dagger",
-      "description": "Killing an enemy fires out {'{'}offense:3 homing daggers{'}'} that deal {'{'}offense:150%{'}'} {'{'}+150%{'}'} base damage."
+      "description": "Killing an enemy fires out #[offense:3 homing daggers] that deal #[offense:150%] #[+150%] base damage."
     },
     "ExtraLife": {
       "name": "Dio's Best Friend",
-      "description": "{'{'}misc:Upon Death{'}'}, this item will be {'{'}misc:consumed{'}'} and you will {'{'}defense:return to life{'}'} with {'{'}defense:3 seconds of invulnerability{'}'}.",
+      "description": "#[misc:Upon Death], this item will be #[misc:consumed] and you will #[defense:return to life] with #[defense:3 seconds of invulnerability].",
       "unlock": "Stay alive for 30 consecutive minutes."
     },
     "FallBoots": {
       "name": "H3AD-5T v2",
-      "description": "Increase {'{'}misc:jump height{'}'}.\nCreates a {'{'}offense:5m-100m{'}'} radius {'{'}offense:kinetic explosion{'}'} on hitting the ground, dealing {'{'}offense:1000%-10000%{'}'} base damage that scales up with {'{'}offense:fall distance{'}'}.\nRecharges in {'{'}offense:10{'}'} {'{'}-50%{'}'} seconds."
+      "description": "Increase #[misc:jump height].\nCreates a #[offense:5m-100m] radius #[offense:kinetic explosion] on hitting the ground, dealing #[offense:1000%-10000%] base damage that scales up with #[offense:fall distance].\nRecharges in #[offense:10] #[-50%] seconds."
     },
     "GhostOnKill": {
       "name": "Happiest Mask",
-      "description": "Killing enemies has a {'{'}offense:7%{'}'} chance to {'{'}offense:spawn a ghost{'}'} of the killed enemy with {'{'}offense:1500%{'}'} damage. Lasts {'{'}offense:30s{'}'} {'{'}+30s{'}'}."
+      "description": "Killing enemies has a #[offense:7%] chance to #[offense:spawn a ghost] of the killed enemy with #[offense:1500%] damage. Lasts #[offense:30s] #[+30s]."
     },
     "HeadHunter": {
       "name": "Wake of Vultures",
-      "description": "Gain the {'{'}offense:power{'}'} of any killed elite monster for {'{'}offense:8s{'}'} {'{'}+5s{'}'}."
+      "description": "Gain the #[offense:power] of any killed elite monster for #[offense:8s] #[+5s]."
     },
     "Icicle": {
       "name": "Frost Relic",
-      "description": "Killing an enemy surrounds you with an {'{'}offense:ice storm{'}'} that deals {'{'}offense:600% damage per second{'}'} and {'{'}misc:slows{'}'} enemies by {'{'}misc:80%{'}'} for {'{'}misc:1.5s{'}'}.\nThe storm {'{'}offense:grows with every kill{'}'}, increasing it's radius by {'{'}offense:1m{'}'}.\nStacks up to {'{'}offense:6m{'}'} {'{'}+6m{'}'}."
+      "description": "Killing an enemy surrounds you with an #[offense:ice storm] that deals #[offense:600% damage per second] and #[misc:slows] enemies by #[misc:80%] for #[misc:1.5s].\nThe storm #[offense:grows with every kill], increasing it's radius by #[offense:1m].\nStacks up to #[offense:6m] #[+6m]."
     },
     "IncreaseHealing": {
       "name": "Rejuvenation Rack",
-      "description": "{'{'}defense:Heal +100%{'}'} {'{'}+100%{'}'} more.",
+      "description": "#[defense:Heal +100%] #[+100%] more.",
       "unlock": "Without healing, reach and complete the 3rd Teleporter event."
     },
     "KillEliteFrenzy": {
       "name": "Brainstalks",
-      "description": "Upon killing an elite monster, {'{'}offense:enter a frenzy{'}'} for {'{'}offense:4s{'}'} {'{'}+4s{'}'} where {'{'}misc:skills have no cooldowns{'}'}.",
+      "description": "Upon killing an elite monster, #[offense:enter a frenzy] for #[offense:4s] #[+4s] where #[misc:skills have no cooldowns].",
       "unlock": "Defeat an Elite boss on Monsoon difficulty."
     },
     "LaserTurbine": {
       "name": "Resonance Disc",
-      "description": "Killing {'{'}offense:4{'}'} enemies in {'{'}misc:7 seconds{'}'} charges the Resonance Disc.\nThe disc launches itself toward a target for {'{'}offense:300%{'}'} base damage {'{'}+300%{'}'}, piercing all enemies it doesn't kill, and then explodes for {'{'}offense:1000%{'}'} base damage {'{'}+1000%{'}'}.\nReturns to the user, striking all enemies along the way for {'{'}offense:300%{'}'} base damage {'{'}+300%{'}'}."
+      "description": "Killing #[offense:4] enemies in #[misc:7 seconds] charges the Resonance Disc.\nThe disc launches itself toward a target for #[offense:300%] base damage #[+300%], piercing all enemies it doesn't kill, and then explodes for #[offense:1000%] base damage #[+1000%].\nReturns to the user, striking all enemies along the way for #[offense:300%] base damage #[+300%]."
     },
     "NovaOnHeal": {
       "name": "N'kuhana's Opinion",
-      "description": "Store {'{'}defense:100%{'}'} {'{'}+100%{'}'} of healing as {'{'}defense:Soul Energy{'}'}.\nAfter your {'{'}defense:Soul Energy{'}'} reaches {'{'}defense:10%{'}'} of your {'{'}defense:maximum health{'}'}, {'{'}offense:fire a skull{'}'} that deals {'{'}offense:250%{'}'} of your {'{'}defense:Soul Energy{'}'} as {'{'}offense:damage{'}'}.",
+      "description": "Store #[defense:100%] #[+100%] of healing as #[defense:Soul Energy].\nAfter your #[defense:Soul Energy] reaches #[defense:10%] of your #[defense:maximum health], #[offense:fire a skull] that deals #[offense:250%] of your #[defense:Soul Energy] as #[offense:damage].",
       "unlock": "Find the Altar to N'kuhana."
     },
     "missinguid_interstellarDeskPlant": {
       "name": "Interstellar Desk Plant",
-      "description": "On kill, plant a {'{'}defense:healing{'}'} fruit seed that grows into a plant after {'{'}misc:5{'}'} seconds.\nThe plant {'{'}defense:heals{'}'} for {'{'}defense:10%{'}'} of {'{'}defense:maximum health{'}'} every second to all allies withing {'{'}defense:5m{'}'} {'{'}+5m{'}'}. Last {'{'}misc:10{'}'} seconds."
+      "description": "On kill, plant a #[defense:healing] fruit seed that grows into a plant after #[misc:5] seconds.\nThe plant #[defense:heals] for #[defense:10%] of #[defense:maximum health] every second to all allies withing #[defense:5m] #[+5m]. Last #[misc:10] seconds."
     },
     "missinguid_itemScrapRed": {
       "name": "Item Scrap, Red",
@@ -308,17 +331,17 @@
     },
     "ShockNearby": {
       "name": "Unstable Tesla Coil",
-      "description": "Fire out {'{'}offense:lightning{'}'} that hits {'{'}offense:3{'}'} {'{'}+2{'}'} enemies for {'{'}offense:200%{'}'} base damage every {'{'}offense:0.5s{'}'}.\nThe Tesla Coil switches off every {'{'}offense:10 seconds{'}'}.",
+      "description": "Fire out #[offense:lightning] that hits #[offense:3] #[+2] enemies for #[offense:200%] base damage every #[offense:0.5s].\nThe Tesla Coil switches off every #[offense:10 seconds].",
       "unlock": "Deal 5000 damage in one shot."
     },
     "Talisman": {
       "name": "Souldbound Catalyst",
-      "description": "{'{'}offense:Kills reduce{'}'} {'{'}misc:equipment cooldown{'}'} by {'{'}misc:4s{'}'} {'{'}+2s{'}'}.",
+      "description": "#[offense:Kills reduce] #[misc:equipment cooldown] by #[misc:4s] #[+2s].",
       "unlock": "Discover and activate 8 unique Newt Altars."
     },
     "UtilitySkillMagazine": {
       "name": "Hardlight Afterburner",
-      "description": "Add {'{'}misc:+2{'}'} {'{'}+2{'}'} charges of your {'{'}misc:Utility skill{'}'}.\n{'{'}misc:Reduces Utility skill cooldown{'}'} by {'{'}misc:33%{'}'}."
+      "description": "Add #[misc:+2] #[+2] charges of your #[misc:Utility skill].\n#[misc:Reduces Utility skill cooldown] by #[misc:33%]."
     },
     "missinguid_artifactKey": {
       "name": "Artifact Key",
@@ -326,39 +349,39 @@
     },
     "BeetleGland": {
       "name": "Queen's Gland",
-      "description": "Every 30 seconds, {'{'}misc:summon a Beetle Guard{'}'} with bonus {'{'}offense:300%{'}'} damage and {'{'}defense:100%{'}'} health.\nCan have up to {'{'}misc:1{'}'} {'{'}+1{'}'} Guards at a time."
+      "description": "Every 30 seconds, #[misc:summon a Beetle Guard] with bonus #[offense:300%] damage and #[defense:100%] health.\nCan have up to #[misc:1] #[+1] Guards at a time."
     },
     "missinguid_shatterspleen": {
       "name": "Shatterspleen",
-      "description": "{'{'}offense:Critical Strikes bleed{'}'} enemies for {'{'}offense:240%{'}'} base damage. {'{'}offense:Bleeding{'}'} enemies {'{'}offense:explode{'}'} on death for {'{'}offense:400%{'}'} {'{'}+400%{'}'} damage, plus an additional {'{'}offense:15%{'}'} {'{'}+15%{'}'} of their maximum health."
+      "description": "#[offense:Critical Strikes bleed] enemies for #[offense:240%] base damage. #[offense:Bleeding] enemies #[offense:explode] on death for #[offense:400%] #[+400%] damage, plus an additional #[offense:15%] #[+15%] of their maximum health."
     },
     "missinguid_moltenPerforator": {
       "name": "Molten Perforator",
-      "description": "{'{'}offense:10%{'}'} chance on hit to call forth {'{'}offense:3 magma balls{'}'} from an enemy, dealing {'{'}offense:300%{'}'} {'{'}+300%{'}'} damage each."
+      "description": "#[offense:10%] chance on hit to call forth #[offense:3 magma balls] from an enemy, dealing #[offense:300%] #[+300%] damage each."
     },
     "Knurl": {
       "name": "Titanic Knurl",
-      "description": "{'{'}defense:Increases maximum health{'}'} by {'{'}defense:40{'}'} {'{'}+40{'}'} and {'{'}defense:base health regeneration{'}'} by {'{'}defense:+1.6 hp/s{'}'} {'{'}+1.6 hp/s{'}'}."
+      "description": "#[defense:Increases maximum health] by #[defense:40] #[+40] and #[defense:base health regeneration] by #[defense:+1.6 hp/s] #[+1.6 hp/s]."
     },
     "missinguid_chargedPerforator": {
       "name": "Charged Perforator",
-      "description": "{'{'}offense:10%{'}'} chance on hit to do down a lightning strike, dealing {'{'}offense:500%{'}'} {'{'}+500%{'}'} damage."
+      "description": "#[offense:10%] chance on hit to do down a lightning strike, dealing #[offense:500%] #[+500%] damage."
     },
     "NovaOnLowHealth": {
       "name": "Genesis Loop",
-      "description": "Falling below {'{'}debuff:25% health{'}'} causes you to explode, dealing {'{'}offense:6000% base damage{'}'}. Recharges every {'{'}misc:30 seconds{'}'} {'{'}-50%{'}'}."
+      "description": "Falling below #[debuff:25% health] causes you to explode, dealing #[offense:6000% base damage]. Recharges every #[misc:30 seconds] #[-50%]."
     },
     "missinguid_planula": {
       "name": "Planula",
-      "description": "Heal from {'{'}offense:incoming damage{'}'} for {'{'}defense:15{'}'} {'{'}+15{'}'}"
+      "description": "Heal from #[offense:incoming damage] for #[defense:15] #[+15]"
     },
     "Pearl": {
       "name": "Pearl",
-      "description": "Increases {'{'}defense:maximum health{'}'} by {'{'}defense:10%{'}'} {'{'}+10%{'}'}."
+      "description": "Increases #[defense:maximum health] by #[defense:10%] #[+10%]."
     },
     "missinguid_empathyCores": {
       "name": "Empathy Cores",
-      "description": "Every 30 seconds, {'{'}misc:summon two Solus Probes{'}'} that gain {'{'}offense:+100%{'}'} {'{'}+100%{'}'} damage per {'{'}misc:ally on your team{'}'}."
+      "description": "Every 30 seconds, #[misc:summon two Solus Probes] that gain #[offense:+100%] #[+100%] damage per #[misc:ally on your team]."
     },
     "missinguid_itemScrapYellow": {
       "name": "Item Scrap, Yellow",
@@ -366,191 +389,191 @@
     },
     "ShinyPearl": {
       "name": "Irradiant Pearl",
-      "description": "Increases {'{'}misc:ALL stats{'}'} by {'{'}misc:10%{'}'} {'{'}+10%{'}'}."
+      "description": "Increases #[misc:ALL stats] by #[misc:10%] #[+10%]."
     },
     "missinguid_miredUrn": {
       "name": "Mired Urn",
-      "description": "While in combat, the nearest 1 {'{'}+1{'}'} characters to you within {'{'}offense:13m{'}'} whill be \"tethered\" to you, dealing {'{'}offense:100%{'}'} damage per second, applying {'{'}offense:tar{'}'}, and {'{'}defense:healing{'}'} your for {'{'}defense:100%{'}'} of the damage dealt."
+      "description": "While in combat, the nearest 1 #[+1] characters to you within #[offense:13m] whill be \"tethered\" to you, dealing #[offense:100%] damage per second, applying #[offense:tar], and #[defense:healing] your for #[defense:100%] of the damage dealt."
     },
     "SprintWisp": {
       "name": "Little Disciple",
-      "description": "Fire a {'{'}offense:tracking wisp{'}'} for {'{'}offense:300%{'}'} {'{'}+300%{'}'} {'{'}offense:damage{'}'}.\nFires every 1.6 seconds while sprinting. Fire rate increases with {'{'}misc:movement speed{'}'}."
+      "description": "Fire a #[offense:tracking wisp] for #[offense:300%] #[+300%] #[offense:damage].\nFires every 1.6 seconds while sprinting. Fire rate increases with #[misc:movement speed]."
     },
     "TitanGoldDuringTP": {
       "name": "Halcyon Seed",
-      "description": "Summon {'{'}offense:Aurelionite{'}'} during the teleporter event.\nIt has {'{'}offense:100%{'}'} {'{'}+50%{'}'} {'{'}offense:damage{'}'} and {'{'}defense:100%{'}'} {'{'}+100%{'}'} {'{'}defense:health{'}'}."
+      "description": "Summon #[offense:Aurelionite] during the teleporter event.\nIt has #[offense:100%] #[+50%] #[offense:damage] and #[defense:100%] #[+100%] #[defense:health]."
     },
     "AutoCastEquipment": {
       "name": "Gesture of the Drowned",
-      "description": "{'{'}misc:Reduce equipment cooldown{'}'} by {'{'}misc:50%{'}'} {'{'}+15%{'}'}.\nForces your Equipment to {'{'}misc:activate{'}'} whenever it is off {'{'}misc:cooldown{'}'}.",
+      "description": "#[misc:Reduce equipment cooldown] by #[misc:50%] #[+15%].\nForces your Equipment to #[misc:activate] whenever it is off #[misc:cooldown].",
       "unlock": "Kill 20 Hermit Crabs by chasing them off the edge of the map."
     },
     "missinguid_focusedConvergence": {
       "name": "Focused Convergence",
-      "description": "Teleporters charge {'{'}misc:30%{'}'} {'{'}+30%{'}'} {'{'}misc:faster{'}'}, but the size of the Teleporter zone is {'{'}debuff:50%{'}'} {'{'}-50%{'}'} smaller.",
+      "description": "Teleporters charge #[misc:30%] #[+30%] #[misc:faster], but the size of the Teleporter zone is #[debuff:50%] #[-50%] smaller.",
       "unlock": "In 4 consecutives stages, don't leave the teleporter radius until it is fully charged."
     },
     "GoldOnHit": {
       "name": "Brittle Crown",
-      "description": "{'{'}misc:30% chance on hit{'}'} to gain {'{'}misc:2{'}'} {'{'}+2{'}'} {'{'}misc:gold{'}'}. {'{'}misc:Scales over time{'}'}.\n{'{'}debuff:Lose gold{'}'} equal to {'{'}debuff:100%{'}'} {'{'}+100%{'}'} of amount your are hit for OR lose % gold equal to {'{'}debuff:100%{'}'} {'{'}+100%{'}'} of the maximum health % you lost.\nChooses the greater of the two."
+      "description": "#[misc:30% chance on hit] to gain #[misc:2] #[+2] #[misc:gold]. #[misc:Scales over time].\n#[debuff:Lose gold] equal to #[debuff:100%] #[+100%] of amount your are hit for OR lose % gold equal to #[debuff:100%] #[+100%] of the maximum health % you lost.\nChooses the greater of the two."
     },
     "missinguid_purity": {
       "name": "Purity",
-      "description": "All skill cooldowns are reduced by {'{'}misc:2{'}'} {'{'}+1{'}'} seconds. All random effects are rolled {'{'}misc:+1{'}'} {'{'}+1{'}'} times for an {'{'}debuff:unfavorable outcome{'}'}.",
+      "description": "All skill cooldowns are reduced by #[misc:2] #[+1] seconds. All random effects are rolled #[misc:+1] #[+1] times for an #[debuff:unfavorable outcome].",
       "unlock": "Beat the game in Monsoon difficulty."
     },
     "LunarDagger": {
       "name": "Shaped Glass",
-      "description": "Increase base damage by {'{'}offense:100%{'}'} {'{'}+100%{'}'}.\n{'{'}defense:Reduce maximum health by 50%{'}'} {'{'}+50%{'}'}."
+      "description": "Increase base damage by #[offense:100%] #[+100%].\n#[defense:Reduce maximum health by 50%] #[+50%]."
     },
     "LunarPrimaryReplacement": {
       "name": "Visions of Heresy",
-      "description": "{'{'}misc:Replace your Primary Skill{'}'} with {'{'}misc:Hungering Gaze{'}'}.\nFire a flurry of {'{'}misc:tracking shards{'}'} that detonate after a delay, dealing {'{'}offense:120%{'}'} base damage. Hold up to 12 charges {'{'}+12{'}'} that reload after 2 seconds {'{'}+2{'}'}."
+      "description": "#[misc:Replace your Primary Skill] with #[misc:Hungering Gaze].\nFire a flurry of #[misc:tracking shards] that detonate after a delay, dealing #[offense:120%] base damage. Hold up to 12 charges #[+12] that reload after 2 seconds #[+2]."
     },
     "missinguid_hookOfHeresy": {
       "name": "Hook of Heresy",
-      "description": "{'{'}misc:Replace your Secondary Skill{'}'} with {'{'}misc:Slicing Maelstrom{'}'}.\nCharge up a projectile that deals {'{'}offense:175% damage per second{'}'} to nearby enemies, exploding after {'{'}misc:3{'}'} seconds to deal {'{'}offense:700% damage{'}'} and {'{'}offense:root{'}'} enemies for {'{'}misc:3{'}'} {'{'}+3{'}'} seconds. Recharges after 5 {'{'}+5{'}'} seconds.",
+      "description": "#[misc:Replace your Secondary Skill] with #[misc:Slicing Maelstrom].\nCharge up a projectile that deals #[offense:175% damage per second] to nearby enemies, exploding after #[misc:3] seconds to deal #[offense:700% damage] and #[offense:root] enemies for #[misc:3] #[+3] seconds. Recharges after 5 #[+5] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "missinguid_essenceOfHeresy": {
       "name": "Essence of Heresy",
-      "description": "{'{'}misc:Replace your Special Skill{'}'} with {'{'}misc:Ruin{'}'}.\nDealing damage adds a stack of {'{'}offense:Ruin{'}'} for 10 {'{'}+10{'}'} seconds. Activating the skill {'{'}offense:detonates{'}'} all Ruin stack at unlimited range, dealing {'{'}offense:300% damage{'}'} plus {'{'}offense:120% damage per stack of Ruin{'}'}.\nRecharges after 8 {'{'}+8{'}'} seconds.",
+      "description": "#[misc:Replace your Special Skill] with #[misc:Ruin].\nDealing damage adds a stack of #[offense:Ruin] for 10 #[+10] seconds. Activating the skill #[offense:detonates] all Ruin stack at unlimited range, dealing #[offense:300% damage] plus #[offense:120% damage per stack of Ruin].\nRecharges after 8 #[+8] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "LunarTrinket": {
       "name": "Beads of Fealty",
-      "description": "Seems to do nothing... {'{'}debuff:but...{'}'}",
+      "description": "Seems to do nothing... #[debuff:but...]",
       "unlock": "Unlock the new zone from the \"Hidden Realms\" update when you obliterate with this item."
     },
     "LunarUtilityReplacement": {
       "name": "Strides of Heresy",
-      "description": "{'{'}misc:Replace your Utility Skill{'}'} with {'{'}misc:Shadowfade{'}'}.\nFade away, becoming {'{'}misc:intangible{'}'} and gaining {'{'}misc:+30% movement speed{'}'}. {'{'}defense:Heal{'}'} for {'{'}defense:25%{'}'} {'{'}+25%{'}'} {'{'}defense:of your maximum health{'}'}. Lasts 3 {'{'}+3{'}'} seconds.",
+      "description": "#[misc:Replace your Utility Skill] with #[misc:Shadowfade].\nFade away, becoming #[misc:intangible] and gaining #[misc:+30% movement speed]. #[defense:Heal] for #[defense:25%] #[+25%] #[defense:of your maximum health]. Lasts 3 #[+3] seconds.",
       "unlock": "Kill 15 boss monsters in a single run."
     },
     "missinguid_defiantGouge": {
       "name": "Defiant Gouge",
-      "description": "Using a Shrine summons {'{'}debuff:enemies{'}'} nearby. {'{'}misc:Scales over time{'}'}."
+      "description": "Using a Shrine summons #[debuff:enemies] nearby. #[misc:Scales over time]."
     },
     "missinguid_mercurialRachis": {
       "name": "Mercurial Rachis",
-      "description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within {'{'}misc:16m{'}'} {'{'}+50%{'}'}, causing them to deal {'{'}offense:+50%{'}'} damage."
+      "description": "Creates a Ward of Power in a random location nearby that buffs both enemies and allies within #[misc:16m] #[+50%], causing them to deal #[offense:+50%] damage."
     },
     "RepeatHeal": {
       "name": "Corpsebloom",
-      "description": "{'{'}defense:Heal +100%{'}'} {'{'}+100%{'}'} more.\n{'{'}defense:All healing is applied over time{'}'}.\nCan {'{'}defense:heal{'}'} for a {'{'}defense:maximum{'}'} of {'{'}defense:10%{'}'} {'{'}-50%{'}'} of your {'{'}defense:health per second{'}'}."
+      "description": "#[defense:Heal +100%] #[+100%] more.\n#[defense:All healing is applied over time].\nCan #[defense:heal] for a #[defense:maximum] of #[defense:10%] #[-50%] of your #[defense:health per second]."
     },
     "ShieldOnly": {
       "name": "Transcendence",
-      "description": "{'{'}defense:Convert{'}'} all but {'{'}defense:1 health{'}'} into {'{'}defense:regenerating shields{'}'}.\n{'{'}defense:Gain 50%{'}'} {'{'}+25%{'}'} {'{'}defense:maximum health{'}'}."
+      "description": "#[defense:Convert] all but #[defense:1 health] into #[defense:regenerating shields].\n#[defense:Gain 50%] #[+25%] #[defense:maximum health]."
     },
     "BurnNearby": {
       "name": "Helfire Tincture",
-      "description": "Ignite ALL characters within 8m. Deal {'{'}offense:5% of your maximum health/second as burning{'}'} to yourself.\nThe burn is {'{'}offense:0.5x{'}'} stronger on allies, and {'{'}offense:24x{'}'} stronger on enemies.\nCooldown: {'{'}misc:45s{'}'}",
+      "description": "Ignite ALL characters within 8m. Deal #[offense:5% of your maximum health/second as burning] to yourself.\nThe burn is #[offense:0.5x] stronger on allies, and #[offense:24x] stronger on enemies.\nCooldown: #[misc:45s]",
       "unlock": "Kill 15 enemies simultaneously."
     },
     "CrippleWard": {
       "name": "Effigy of Grief",
-      "description": "ALL characters are {'{'}misc:slowed by 50%{'}'} and has their {'{'}offense:armor reduced by 20{'}'}.\nCan place up to {'{'}misc:5{'}'}.\nCooldown: {'{'}misc:15s{'}'}"
+      "description": "ALL characters are #[misc:slowed by 50%] and has their #[offense:armor reduced by 20].\nCan place up to #[misc:5].\nCooldown: #[misc:15s]"
     },
     "Meteor": {
       "name": "Glowing Meteorite",
-      "description": "{'{'}offense:Rain meteors{'}'} from the sky, damaging ALL characters for {'{'}offense:600% damage per blast{'}'}.\nLast 20 seconds.",
+      "description": "#[offense:Rain meteors] from the sky, damaging ALL characters for #[offense:600% damage per blast].\nLast 20 seconds.",
       "unlock": "Carry 5 Lunar items in a single run."
     },
     "Tonic": {
       "name": "Spinel Affliction",
-      "description": "Drink the Tonic, gaining a boost for 15 seconds.\nIncreases {'{'}offense:damage{'}'} by {'{'}offense:+100%{'}'}.\nIncreases {'{'}offense:attack speed{'}'} by {'{'}offense:+70%{'}'}.\nIncreases {'{'}offense:armor{'}'} by {'{'}offense:+20{'}'}.\nIncreases {'{'}defense:maximum health{'}'} by {'{'}defense:+50%{'}'}.\nIncreases {'{'}defense:passive health regeneration{'}'} by {'{'}defense:+300%{'}'}.\nIncreases {'{'}misc:movespeed{'}'} by {'{'}misc:+30%{'}'}.\nWhen the tonic wears off, you have {'{'}debuff:20%{'}'} chance to gain a {'{'}debuff:Tonic Affliction, reducing all of your stats{'}'} by {'{'}debuff:-5%{'}'} {'{'}-5%{'}'}",
+      "description": "Drink the Tonic, gaining a boost for 15 seconds.\nIncreases #[offense:damage] by #[offense:+100%].\nIncreases #[offense:attack speed] by #[offense:+70%].\nIncreases #[offense:armor] by #[offense:+20].\nIncreases #[defense:maximum health] by #[defense:+50%].\nIncreases #[defense:passive health regeneration] by #[defense:+300%].\nIncreases #[misc:movespeed] by #[misc:+30%].\nWhen the tonic wears off, you have #[debuff:20%] chance to gain a #[debuff:Tonic Affliction, reducing all of your stats] by #[debuff:-5%] #[-5%]",
       "unlock": "Discover and enter three unique portals."
     },
     "BFG": {
       "name": "Preon Accumulator",
-      "description": "Fires preon tendrils, zapping enemies within 35m up to {'{'}offense:600% damage/second{'}'}.\nOn contact, detonate in an enormous 20m explosion for {'{'}offense:4000% damage{'}'}.\nCooldown: {'{'}misc:140s{'}'}",
+      "description": "Fires preon tendrils, zapping enemies within 35m up to #[offense:600% damage/second].\nOn contact, detonate in an enormous 20m explosion for #[offense:4000% damage].\nCooldown: #[misc:140s]",
       "unlock": "Open the Timed Security Chest on Rallypoint Delta."
     },
     "Blackhole": {
       "name": "Blackhole",
-      "description": "Fire a black hole that {'{'}misc:draws enemies within 30m into it's center{'}'}. Last 10 seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "description": "Fire a black hole that #[misc:draws enemies within 30m into it's center]. Last 10 seconds.\nCooldown: #[misc:60s]"
     },
     "Cleanse": {
       "name": "Blast Shower",
-      "description": "{'{'}misc:Cleanse{'}'} all negative effects. Includes debuffs, damage over time, and nearby projectiles.\nCooldown: {'{'}misc:20s{'}'}",
+      "description": "#[misc:Cleanse] all negative effects. Includes debuffs, damage over time, and nearby projectiles.\nCooldown: #[misc:20s]",
       "unlock": "Die three fiery deaths."
     },
     "CommandMissile": {
       "name": "Disposable Missile Launcher",
-      "description": "Fire a swarm of {'{'}offense:12{'}'} missiles that deal {'{'}offense:12x300%{'}'} damage.\nCooldown: {'{'}misc:45s{'}'}"
+      "description": "Fire a swarm of #[offense:12] missiles that deal #[offense:12x300%] damage.\nCooldown: #[misc:45s]"
     },
     "CritOnUse": {
       "name": "Ocular HUD",
-      "description": "Gain {'{'}offense:+100% Critical Strike Chance{'}'} for 8 seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "description": "Gain #[offense:+100% Critical Strike Chance] for 8 seconds.\nCooldown: #[misc:60s]"
     },
     "missinguid_forgiveMePlease": {
       "name": "Forgive Me Please",
-      "description": "Throw a cursed doll out that {'{'}offense:triggers{'}'} any {'{'}offense:On-kill{'}'} effects you have every {'{'}misc:1{'}'} second for {'{'}misc:8{'}'} seconds.\nCooldown: {'{'}misc:45{'}'}",
+      "description": "Throw a cursed doll out that #[offense:triggers] any #[offense:On-kill] effects you have every #[misc:1] second for #[misc:8] seconds.\nCooldown: #[misc:45]",
       "unlock": "Die 20 times."
     },
     "DroneBackup": {
       "name": "The Back-up",
-      "description": "Call {'{'}offense:4 Strike Drones{'}'} to fight for you.\nLast 25 seconds.\nCooldown: {'{'}misc:100s{'}'}",
+      "description": "Call #[offense:4 Strike Drones] to fight for you.\nLast 25 seconds.\nCooldown: #[misc:100s]",
       "unlock": "Repair 30 drones or turrets."
     },
     "FireBallDash": {
       "name": "Volcania Egg",
-      "description": "Turn into a {'{'}offense:draconic fireball{'}'} for {'{'}offense:5{'}'} seconds. Deal {'{'}offense:500% damage{'}'} on impact.\nDetonates at the end for {'{'}offense:800% damage{'}'}.\nCooldown: {'{'}misc:30s{'}'}"
+      "description": "Turn into a #[offense:draconic fireball] for #[offense:5] seconds. Deal #[offense:500% damage] on impact.\nDetonates at the end for #[offense:800% damage].\nCooldown: #[misc:30s]"
     },
     "Fruit": {
       "name": "Foreign Fruit",
-      "description": "Instantly heal for {'{'}defense:50% of your maximum health{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "description": "Instantly heal for #[defense:50% of your maximum health].\nCooldown: #[misc:45s]"
     },
     "GainArmor": {
       "name": "Jade Elephant",
-      "description": "Gain {'{'}offense:500 armor{'}'} for {'{'}misc:5 seconds{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "description": "Gain #[offense:500 armor] for #[misc:5 seconds].\nCooldown: #[misc:45s]"
     },
     "Gateway": {
       "name": "Eccentric Vase",
-      "description": "Create a {'{'}misc:quantum tunnel{'}'} of up to {'{'}misc:1000m{'}'} in length. Lasts 30 seconds.\nCooldown: {'{'}misc:45s{'}'}",
+      "description": "Create a #[misc:quantum tunnel] of up to #[misc:1000m] in length. Lasts 30 seconds.\nCooldown: #[misc:45s]",
       "unlock": "Defeat the guardian of Gilded Coast without any beacons deactivating."
     },
     "GoldGat": {
       "name": "The Crowdfunder",
-      "description": "Fires a continuous barrage that deals {'{'}offense:100% damage per bullet{'}'}.\nCosts {'$'}1 per bullet. Costs increases over time.\nCooldown: {'{'}misc:5s{'}'}",
+      "description": "Fires a continuous barrage that deals #[offense:100% damage per bullet].\nCosts {'$'}1 per bullet. Costs increases over time.\nCooldown: #[misc:5s]",
       "unlock": "Collect {'$'}30,480 total gold."
     },
     "Jetpack": {
       "name": "Milky Chrisalis",
-      "description": "Sprout wings and {'{'}misc:fly for 15 seconds{'}'}.\nGain {'{'}misc:+20% movement speed{'}'} for the duration.\nCooldown: {'{'}misc:60s{'}'}"
+      "description": "Sprout wings and #[misc:fly for 15 seconds].\nGain #[misc:+20% movement speed] for the duration.\nCooldown: #[misc:60s]"
     },
     "missinguid_superMassiveLeech": {
       "name": "Super Massive Leech",
-      "description": "{'{'}defense:Heal{'}'} for {'{'}defense:20%{'}'} of the {'{'}offense:damage{'}'} you deal. Lasts {'{'}defense:8{'}'} seconds.\nCooldown: {'{'}misc:60s{'}'}"
+      "description": "#[defense:Heal] for #[defense:20%] of the #[offense:damage] you deal. Lasts #[defense:8] seconds.\nCooldown: #[misc:60s]"
     },
     "Lightning": {
       "name": "Royal Capacitor",
-      "description": "Call down a lightning strike on a targeted monster, dealing {'{'}offense:3000% damage{'}'} and {'{'}offense:stunning{'}'} nearby monsters.\nCooldown: {'{'}misc:20s{'}'}",
+      "description": "Call down a lightning strike on a targeted monster, dealing #[offense:3000% damage] and #[offense:stunning] nearby monsters.\nCooldown: #[misc:20s]",
       "unlock": "Defeat the Teleporter bosses after activating 2 Shrines of the Moutain."
     },
     "PassiveHealing": {
       "name": "Gnarled Woodsprite",
-      "description": "Gain a Woodsprite follower that heals for {'{'}defense:1.5% of your maximum health/second{'}'}.\nCan be sent to an ally to heal them for {'{'}defense:10% of their maximum health{'}'}.\nCooldown: {'{'}misc:15s{'}'}",
+      "description": "Gain a Woodsprite follower that heals for #[defense:1.5% of your maximum health/second].\nCan be sent to an ally to heal them for #[defense:10% of their maximum health].\nCooldown: #[misc:15s]",
       "unlock": "Fully upgrade a Shrine of the Woods."
     },
     "missinguid_recycler": {
       "name": "Recycler",
-      "description": "{'{'}misc:Transform{'}'} an Item or Equipment into a different one. {'{'}misc:Can only be converted in the same tier one time{'}'}.\nCooldown: {'{'}misc:45s{'}'}",
+      "description": "#[misc:Transform] an Item or Equipment into a different one. #[misc:Can only be converted in the same tier one time].\nCooldown: #[misc:45s]",
       "unlock": "Destroy  20 flying rocks in Sky Meadow."
     },
     "missinguid_sawmerang": {
       "name": "Sawmerang",
-      "description": "Throw {'{'}offense:three large saw blades{'}'} that slice through enemies for {'{'}offense:3x400%{'}'} damage.\nAlso deals an additional {'{'}offense:3x100% damage per second{'}'} while {'{'}offense:bleeding{'}'} enemies.\nCan {'{'}offense:strike{'}'} enemies again on the way back.\nCooldown: {'{'}misc:45s{'}'}"
+      "description": "Throw #[offense:three large saw blades] that slice through enemies for #[offense:3x400%] damage.\nAlso deals an additional #[offense:3x100% damage per second] while #[offense:bleeding] enemies.\nCan #[offense:strike] enemies again on the way back.\nCooldown: #[misc:45s]"
     },
     "Scanner": {
       "name": "Radar Scanner",
-      "description": "{'{'}misc:Reveal{'}'} all interactables within 500m for {'{'}misc:10 seconds{'}'}.\nCooldown: {'{'}misc:45s{'}'}",
+      "description": "#[misc:Reveal] all interactables within 500m for #[misc:10 seconds].\nCooldown: #[misc:45s]",
       "unlock": "Collect 10 Monster or Environment Logs."
     },
     "missinguid_goragsOpus": {
       "name": "Gorag's Opus",
-      "description": "All allies enter a {'{'}offense:frenzy{'}'} for {'{'}misc:7{'}'} seconds. Increases {'{'}misc:movement speed{'}'} by {'{'}misc:50%{'}'} and {'{'}offense:attack speed{'}'} by {'{'}offense:100%{'}'}.\nCooldown: {'{'}misc:45s{'}'}"
+      "description": "All allies enter a #[offense:frenzy] for #[misc:7] seconds. Increases #[misc:movement speed] by #[misc:50%] and #[offense:attack speed] by #[offense:100%].\nCooldown: #[misc:45s]"
     }
   }
 }

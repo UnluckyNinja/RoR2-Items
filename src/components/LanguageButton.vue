@@ -4,7 +4,7 @@
     @click="toggleDropdown"
   >
     <unicon name="english-to-chinese" class="pr-1" fill="#ffffff"></unicon>
-    <span>Language</span>
+    <span>{{ t('ui.button.language') }}</span>
     <div
       class="absolute top-full right-0 w-40 mt-2 p-2 rounded flex flex-col space-y-2 items-stretch bg-green-500"
       v-show="showDropdown"

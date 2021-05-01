@@ -10,7 +10,7 @@
 				>
 					<span class="inline-block w-full text-lg text-gray-400">Glagan</span>
 					<span class="flex flex-row flex-nowrap items-center text-xl text-gray-200">
-						Risk of Rain 2 Items &amp; Equipments
+						{{ t('ui.title') }}
 						<unicon
 							class="inline-block align-middle ml-1"
 							name="github"
@@ -28,7 +28,7 @@
 						style="border: 0px; height: 36px"
 						src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2"
 						border="0"
-						alt="Buy Me a Coffee at ko-fi.com"
+						:alt="t('ui.donate')"
 					/>
 				</a>
 			</div>
@@ -52,12 +52,12 @@
 					class="rounded-l-md bg-red-600 text-white border-2 border-red-700 py-1 px-2 focus:border-red-800 focus:ring focus:ring-red-800"
 					@click.prevent="clearFilter"
 				>
-					Clear
+					{{ t('ui.button.clear') }}
 				</button>
 				<input
 					class="flex-grow text-black placeholder-gray-500 border border-gray-200 rounded-r-md p-2 focus:border-blue-800 focus:ring focus:ring-blue-800"
 					v-model="strFilter"
-					placeholder="Search name, tags, rarity and description"
+					:placeholder="t('ui.search-placeholder')"
 					@keydown.enter.prevent=""
 				/>
 			</div>
@@ -70,7 +70,7 @@
 				<div class="alert w-full mb-1 overflow-hidden bg-blue-50 text-blue-600 rounded-md shadow-md">
 					<div class="p-4 flex items-center border-l-4 border-blue-600 tracking-normal">
 						<unicon class="mr-2" name="info-circle" width="36" height="36" fill="#2563EB"></unicon>
-						No Items found.
+						{{ t('ui.noitemfound') }}
 					</div>
 				</div>
 			</template>

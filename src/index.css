@@ -43,23 +43,46 @@ body.modal-active {
 .all.active {
 	@apply bg-gray-800;
 }
+.common {
+	@apply text-current;
+}
 .common.active {
 	@apply bg-common;
 }
+.uncommon {
+	@apply text-uncommon-light;
+}
 .uncommon.active {
 	@apply bg-uncommon;
+	@apply text-current;
+}
+.rare {
+	@apply text-rare-light;
 }
 .rare.active {
 	@apply bg-rare;
+	@apply text-current;
+}
+.unique {
+	@apply text-unique-light;
 }
 .unique.active {
 	@apply bg-unique;
+	@apply text-current;
+}
+.lunar {
+	@apply text-lunar-light;
 }
 .lunar.active {
 	@apply bg-lunar;
+	@apply text-current;
+}
+.equipment {
+	@apply text-equipment-light;
 }
 .equipment.active {
 	@apply bg-equipment;
+	@apply text-current;
 }
 
 input,

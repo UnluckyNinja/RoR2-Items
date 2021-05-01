@@ -19,7 +19,7 @@
 			<div class="modal-content text-left border border-white rounded-md overflow-hidden cursor-default">
 				<div class="flex justify-start items-center p-2 text-xl border-b border-white bg-gray-700">
 					<unicon name="unlock" class="mr-1" width="24" height="24" fill="white"></unicon>
-					How to Unlock
+					{{ t("ui.modal.title") }}
 				</div>
 				<div class="item-body flex flex-row flex-nowrap bg-gray-800">
 					<div class="flex-grow-0 flex-shrink-0 border-r border-white">
@@ -32,7 +32,7 @@
 						class="modal-close py-1 p-2 rounded-md border border-blue-800 bg-blue-600 transition hover:border-blue-900 hover:bg-blue-700 focus:border-blue-800 focus:ring focus:ring-blue-800"
 						@click="hide"
 					>
-						Close
+						{{ t("ui.modal.close") }}
 					</button>
 				</div>
 			</div>
@@ -42,6 +42,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 export default defineComponent({
 	data() {
@@ -52,6 +53,11 @@ export default defineComponent({
 			visible: boolean;
 			item: ItemDescription;
 		};
+	},
+	setup(){
+		const { t, te } = useI18n({ useScope: 'global' });
+
+		return { t, te };
 	},
 	methods: {
 		show(item: ItemDescription) {

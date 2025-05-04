@@ -113,7 +113,7 @@
     },
     "StunChanceOnHit": {
       "name": "眩晕手雷",
-      "description": "击中时有 #[misc:5%] #[+5%] 的几率 #[misc:眩晕] 敌人 #[misc:2] 秒。"
+      "description": "击中时有 #[misc:5%] #[+5%] 的几率 #[misc:眩晕] 敌人 #[misc:2s]。"
     },
     "Syringe": {
       "name": "士兵的注射器",
@@ -151,11 +151,11 @@
     },
     "missinguid_deathMark": {
       "name": "死亡标记",
-      "description": "拥有 #[offense:4] 种或更多减益效果的敌人被 #[offense:死亡标记], 从所有来源中承受 #[offense:50%] 更多伤害，持续 #[misc:7] #[+7] 秒。"
+      "description": "拥有 #[offense:4] 种或更多减益效果的敌人被 #[offense:死亡标记], 从所有来源中承受 #[offense:50%] 更多伤害，持续 #[misc:7s] #[+7s]。"
     },
     "EnergizedOnEquipmentUse": {
       "name": "战争号角",
-      "description": "激活装备给予你 #[offense:+70%攻速]，持续 #[offense:8] #[+4] 秒。",
+      "description": "激活装备给予你 #[offense:+70%攻速]，持续 #[offense:8s] #[+4s]。",
       "unlock": "一个场景中完成 3 个战斗神龛。"
     },
     "EquipmentMagazine": {
@@ -178,7 +178,7 @@
     },
     "FireRing": {
       "name": "贾罗的手环",
-      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文火焰龙卷] 袭击敌人，持续造成 #[offense:300%] #[+300%] 总伤害。每 #[misc:10] 秒重新充能。",
+      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文火焰龙卷] 袭击敌人，持续造成 #[offense:300%] #[+300%] 总伤害。每 #[misc:10s] 重新充能。",
       "unlock": "TODO Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "HealOnCrit": {
@@ -188,7 +188,7 @@
     },
     "IceRing": {
       "name": "鲁纳德的手环",
-      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文冰霜爆破] 袭击敌人，#[misc:迟缓] 敌人 #[misc:80%]，持续 #[misc:3] #[+3] 秒，并造成 #[offense:250%] #[+250%] 总伤害。每 #[misc:10] 秒重新充能。",
+      "description": "若击中时造成 #[offense:超过400%伤害]，生成一个 #[offense:符文冰霜爆破] 袭击敌人，#[misc:迟缓] 敌人 #[misc:80%]，持续 #[misc:3s] #[+3s]，并造成 #[offense:250%] #[+250%] 总伤害。每 #[misc:10s] 重新充能。",
       "unlock": "TODO Discover the hidden chamber in the Abandonned Aqueduct."
     },
     "Infusion": {
@@ -207,7 +207,7 @@
     },
     "Phasing": {
       "name": "老旧战争潜行工具",
-      "description": "低于 #[debuff:25%生命值] 时使你获得 #[misc:40%移动速度] 和 #[misc:隐身]，持续 #[misc:5] 秒.\n每 #[misc:30秒] #[-50%] 秒重新充能。"
+      "description": "低于 #[debuff:25%生命值] 时使你获得 #[misc:40%移动速度] 和 #[misc:隐身]，持续 #[misc:5s]。\n每 #[misc:30s] #[-50%] 重新充能。"
     },
     "missinguid_itemScrapGreen": {
       "name": "物品碎片，绿色",
@@ -219,7 +219,7 @@
     },
     "SlowOnHit": {
       "name": "时空装置",
-      "description": "#[misc:减速] 敌人 #[misc:-60% 移动速度]，持续 #[misc:2] #[+2] 秒。"
+      "description": "#[misc:减速] 敌人 #[misc:-60% 移动速度]，持续 #[misc:2s] #[+2s]。"
     },
     "SprintArmor": {
       "name": "玫瑰圆盾",
@@ -231,7 +231,7 @@
     },
     "missinguid_squidPolyp": {
       "name": "乌贼增生体",
-      "description": "激活一个可互动物会召唤一个 #[offense:乌贼炮台]，以 #[offense:100%] #[+100%] #[offense:攻击速度] 攻击附近的敌人。持续 #[misc:30] 秒。",
+      "description": "激活一个可互动物会召唤一个 #[offense:乌贼炮台]，以 #[offense:100%] #[+100%] #[offense:攻击速度] 攻击附近的敌人。持续 #[misc:30s]。",
       "unlock": "一次游戏中激活 6 个炮台。"
     },
     "TPHealingNova": {
@@ -244,7 +244,7 @@
     },
     "WarCryOnMultiKill": {
       "name": "狂战士肩甲",
-      "description": "#[offense:1] 秒内 #[offense:杀死3个敌人] 使你 #[offense:狂暴]，持续 #[offense:6] #[+4] 秒.\n#[misc:移动速度] 提高 #[misc:50%]，#[offense:攻击速度] 提高 #[offense:100%]。",
+      "description": "#[offense:1s] 内 #[offense:杀死3个敌人] 使你 #[offense:狂暴]，持续 #[offense:6s] #[+4s]。\n#[misc:移动速度] 提高 #[misc:50%]，#[offense:攻击速度] 提高 #[offense:100%]。",
       "unlock": "以低于 10% 生命值的方式充能传送器。"
     },
     "AlienHead": {
@@ -253,7 +253,7 @@
     },
     "ArmorReductionOnHit": {
       "name": "粉碎之正义",
-      "description": "击中一个敌人 #[offense:5] 次后，降低其 #[offense:护甲] #[offense:60] 点，持续 #[offense:8] #[+8] 秒。"
+      "description": "击中一个敌人 #[offense:5] 次后，降低其 #[offense:护甲] #[offense:60] 点，持续 #[offense:8s] #[+8s]。"
     },
     "BarrierOnOverHeal": {
       "name": "庇护",
@@ -270,7 +270,7 @@
     },
     "missinguid_defensiveMicrobots": {
       "name": "防御用微型机器人",
-      "description": "每 #[offense:0.5秒] 击坠 #[offense:20m] 内的 #[offense:1] #[+1] 个投射物。#[misc:充能速度随攻速变化]。"
+      "description": "每 #[offense:0.5s] 击坠 #[offense:20m] 内的 #[offense:1] #[+1] 个投射物。#[misc:充能速度随攻速变化]。"
     },
     "Clover": {
       "name": "57片叶子的三叶草",
@@ -288,19 +288,19 @@
     },
     "FallBoots": {
       "name": "H3AD-5T v2",
-      "description": "提高 #[misc:跳跃高度]。\nCreates a #[offense:5m-100m] radius #[offense:kinetic explosion] on hitting the ground, dealing #[offense:1000%-10000%] base damage that scales up with #[offense:fall distance].\nRecharges in #[offense:10] #[-50%] seconds."
+      "description": "提高 #[misc:跳跃高度]。\n落地时产生一个半径 #[offense:5m-100m] 的 #[offense:动能爆炸]，造成 #[offense:1000%-10000%] 基础伤害，随 #[offense:坠落高度] 变化。\n每 #[offense:10s] #[-50%] 重新充能。"
     },
     "GhostOnKill": {
       "name": "欢乐面具",
-      "description": "Killing enemies has a #[offense:7%] chance to #[offense:spawn a ghost] of the killed enemy with #[offense:1500%] damage. Lasts #[offense:30s] #[+30s]."
+      "description": "杀死敌人有 #[offense:7%] 几率 #[offense:生成一个被击杀敌人的幽灵]，能造成 #[offense:1500%] 伤害。持续 #[offense:30s] #[+30s]。"
     },
     "HeadHunter": {
       "name": "秃鹫的苏醒",
-      "description": "获得被击杀精英敌人的 #[offense:能力]，持续 #[offense:8] #[+5] 秒。"
+      "description": "获得被击杀精英敌人的 #[offense:能力]，持续 #[offense:8s] #[+5s]。"
     },
     "Icicle": {
       "name": "冰霜圣物",
-      "description": "Killing an enemy surrounds you with an #[offense:ice storm] that deals #[offense:600% damage per second] and #[misc:slows] enemies by #[misc:80%] for #[misc:1.5s].\nThe storm #[offense:grows with every kill], increasing it's radius by #[offense:1m].\nStacks up to #[offense:6m] #[+6m]."
+      "description": "杀死一名敌人使你周围环绕 #[offense:冰霜风暴]，造成 #[offense:600% 伤害每秒]，并 #[misc:迟缓] 敌人 #[misc:80%]，持续 #[misc:1.5s]。\n风暴 #[offense:每次击杀都会成长]，使半径提升 #[offense:1m]。\n最高 #[offense:6m] #[+6m]。"
     },
     "IncreaseHealing": {
       "name": "回春支架",
@@ -309,12 +309,12 @@
     },
     "KillEliteFrenzy": {
       "name": "脑部跟踪",
-      "description": "Upon killing an elite monster, #[offense:enter a frenzy] for #[offense:4s] #[+4s] where #[misc:skills have no cooldowns].",
-      "unlock": "Defeat an Elite boss on Monsoon difficulty."
+      "description": "击杀精英敌人时，#[offense:进入狂暴状态]，#[misc:技能没有冷却时间]，持续 #[offense:4s] #[+4s]。",
+      "unlock": "在季风难度下击败一个精英BOSS。"
     },
     "LaserTurbine": {
       "name": "共鸣圆盘",
-      "description": "Killing #[offense:4] enemies in #[misc:7 seconds] charges the Resonance Disc.\nThe disc launches itself toward a target for #[offense:300%] base damage #[+300%], piercing all enemies it doesn't kill, and then explodes for #[offense:1000%] base damage #[+1000%].\nReturns to the user, striking all enemies along the way for #[offense:300%] base damage #[+300%]."
+      "description": "在 #[misc:7 seconds] 内击杀 #[offense:4] 会充能共鸣圆盘。\n圆盘自动对一个目标发射，造成 #[offense:300%] 基础伤害 #[+300%]，穿刺所有未击杀的敌人，然后爆炸造成 #[offense:1000%] 基础伤害 #[+1000%].\n返回使用者，对所有途径敌人造成 #[offense:300%] 基础伤害 #[+300%]。"
     },
     "NovaOnHeal": {
       "name": "恩库哈纳的意见",
